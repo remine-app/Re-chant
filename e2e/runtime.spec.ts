@@ -22,7 +22,10 @@ test('runtime groups, stored hints, original lyrics, tail and persistent audio',
  await page.goto('#/practice/pretty-girl');await expect(page.getByRole('button',{name:'응원법 전체',exact:true})).toBeVisible();await page.getByRole('button',{name:'연습 모드',exact:true}).click();await page.getByRole('button',{name:'힌트 표시',exact:true}).click();
  await expect(page.locator('[data-event-id]').filter({hasText:'(함성)'})).toHaveCount(2);
  await page.locator('input[aria-label="재생 위치"]').fill('210181');await expect(page.locator('.is-current')).toContainText('○○');
- await page.reload();await expect(page.getByRole('button',{name:'재생',exact:true})).toBeVisible();
+ await page.getByRole('link',{name:'곡 목록',exact:true}).first().click();await page.getByRole('link',{name:'홈',exact:true}).click();
+ await page.locator('.feature-card .primary-button').click();await expect.poll(()=>page.locator('input[aria-label="재생 위치"]').inputValue()).toBe('210181');
+ await page.getByRole('link',{name:'곡 목록',exact:true}).first().click();await page.locator('.song-row').filter({hasText:'Pretty Girl'}).click();await expect(page.locator('input[aria-label="재생 위치"]')).toHaveValue('0');
+ await page.getByRole('link',{name:'설정',exact:true}).click();await expect(page.getByRole('button',{name:'삭제',exact:true})).toHaveCount(0);await expect(page.getByText('Dropbox에서 받은',{exact:false})).toHaveCount(0);
 });
 test('real audio pack installs, plays and resumes silent tail after refresh',async({page})=>{
  const audioPack=process.env.RECHANT_AUDIO_PACK??'../project_sources/02-Rechant-Audio-Pack.zip';test.skip(!existsSync(audioPack),'RECHANT_AUDIO_PACK에 실제 음원팩 경로를 지정하세요.');
