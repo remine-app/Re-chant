@@ -1,30 +1,21 @@
-import type{Song,LyricLine,Chant,RequiredAudio,InstalledAudioMeta,AudioCatalogTrack}from'../models/types';
-import{audioMatches,createAudioObjectUrl,listInstalledAudio}from'./audioLibrary';
-import{AUDIO_CATALOG_URL,CONTENT_ROOT,DROPBOX_AUDIO_PACK_URL}from'../config';
-async function json(url:string){const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw Error(`${r.status}: ${url}`);return r.json()}
-function safeFile(v:string){return!!v&&!v.startsWith('/')&&!v.includes('..')&&!v.includes('://')}
-function num(v:any,fallback=0){const n=Number(v);return Number.isFinite(n)?n:fallback}
-function normalizeLine(row:any,index:number):LyricLine{return{id:String(row.id??row.lineId??`line-${String(index+1).padStart(3,'0')}`),index:Number.isFinite(row.index)?row.index:index,startMs:num(row.startMs??row.sourceStartMs),endMs:num(row.endMs??row.sourceEndMs),lyric:String(row.lyric??row.text??''),chants:Array.isArray(row.chants)?row.chants.map((ch:any,i:number):Chant=>({id:String(ch.id??`chant-${index}-${i}`),text:String(ch.text??''),startMs:Number.isFinite(ch.startMs)?ch.startMs:undefined,endMs:Number.isFinite(ch.endMs)?ch.endMs:undefined,lineStartMs:Number.isFinite(ch.lineStartMs)?ch.lineStartMs:undefined,lineEndMs:Number.isFinite(ch.lineEndMs)?ch.lineEndMs:undefined,chantLeadMs:Number.isFinite(ch.chantLeadMs)?ch.chantLeadMs:undefined})):[],segments:Array.isArray(row.segments)?row.segments:undefined}}
-function fallbackTitle(songId:string){return songId.split('-').map(s=>s?s[0].toUpperCase()+s.slice(1):s).join(' ')}
+import type {Song} from '../models/types';
+import {audioMatches,createAudioObjectUrl,listInstalledAudio} from './audioLibrary';
+import {CONTENT_ROOT,DROPBOX_AUDIO_PACK_URL} from '../config';
+import {ContentError,safePath,validateManifest,validateSong} from './runtime';
+async function json(url:string){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new ContentError('FETCH',`콘텐츠를 읽을 수 없습니다 (${r.status}).`);try{return await r.json()}catch{throw new ContentError('JSON','콘텐츠 JSON이 손상되었습니다.')}}
 export async function loadSongs():Promise<Song[]>{
-  let contentManifest:any={songs:[]},catalog:any={tracks:[]};
-  try{contentManifest=await json(`${CONTENT_ROOT}manifest.json`)}catch{}
-  try{catalog=await json(AUDIO_CATALOG_URL)}catch{}
-  const contentEntries=Array.isArray(contentManifest.songs)?contentManifest.songs:[];
-  const tracks:AudioCatalogTrack[]=Array.isArray(catalog.tracks)?catalog.tracks:[];
-  const contentById=new Map<string,any>(contentEntries.map((x:any):[string,any]=>[String(x.songId||''),x]));
-  const trackById=new Map<string,AudioCatalogTrack>(tracks.map((x):[string,AudioCatalogTrack]=>[String(x.songId||''),x]));
-  const ids:string[]=[...new Set<string>([...contentById.keys(),...trackById.keys()].filter((id):id is string=>Boolean(id)))];
-  const installed=await listInstalledAudio(),byId=new Map<string,InstalledAudioMeta>(installed.map(x=>[x.songId,x]));
-  const result:Song[]=[];
-  for(const songId of ids){
-    const e:any=contentById.get(songId)||{},track=trackById.get(songId);let data:any={};
-    if(e.dataFile&&safeFile(String(e.dataFile))){try{data=await json(`${CONTENT_ROOT}${e.dataFile}`)}catch{}}
-    const required=(e.requiredAudio??data.requiredAudio??(track?{audioVersion:track.audioVersion,durationMs:track.durationMs,sha256:track.sha256,byteLength:track.byteLength}:undefined)) as RequiredAudio|undefined;
-    const meta=byId.get(songId),ready=audioMatches(meta,required),coverFile=String(e.coverFile??e.cover??data.coverFile??data.cover??'');
-    const rawLines=Array.isArray(data.lines)?data.lines:Array.isArray(data.lyrics)?data.lyrics:[];
-    result.push({songId,title:String(data.title??e.title??track?.title??fallbackTitle(songId)),artist:String(data.artist??e.artist??track?.artist??'RESCENE'),album:String(data.album??e.album??''),version:String(data.version??e.version??''),durationMs:num(data.durationMs??e.durationMs??required?.durationMs??track?.durationMs),coverUrl:coverFile&&safeFile(coverFile)?`${CONTENT_ROOT}${coverFile}`:undefined,audioUrl:ready?await createAudioObjectUrl(songId):undefined,audioVersion:meta?.audioVersion,audioDownloadUrl:track?.downloadUrl??catalog.defaultDownloadUrl??DROPBOX_AUDIO_PACK_URL,lyrics:rawLines.map(normalizeLine).sort((a:LyricLine,b:LyricLine)=>a.startMs-b.startMs),contentReady:rawLines.length>0,audioReady:ready,requiredAudio:required});
-  }
-  return result;
+ const manifest=validateManifest(await json(CONTENT_ROOT+'manifest.json'));
+ const installed=new Map((await listInstalledAudio()).map(x=>[x.songId,x]));
+ return Promise.all(manifest.songs.map(async(e:any):Promise<Song>=>{
+ const base:Song={songId:e.songId,title:e.title??e.songId,artist:e.artist??'RESCENE',version:e.version,packVersion:manifest.packVersion,durationMs:e.durationMs??0,practiceDurationMs:e.durationMs??0,outroHoldMs:0,defaultOffsetMs:0,chantEvents:[],displayGroups:[],lines:[],lyrics:[],contentReady:false,audioReady:false,requiredAudio:e.requiredAudio,audioDownloadUrl:DROPBOX_AUDIO_PACK_URL};
+ try{
+ if(!safePath(e.dataFile)||(e.coverFile&&!safePath(e.coverFile)))throw new ContentError('PATH','콘텐츠 파일 경로가 올바르지 않습니다.');
+ const s=validateSong(await json(CONTENT_ROOT+e.dataFile+'?pack='+encodeURIComponent(manifest.packVersion)),e.songId);
+ const required=e.requiredAudio;if(!required||!Number.isFinite(required.durationMs)||!Number.isInteger(required.byteLength)||!/^[a-f0-9]{64}$/i.test(required.sha256)||typeof required.audioVersion!=='string')throw new ContentError('AUDIO','필수 음원 요구사항이 잘못되었습니다.');
+ const meta=installed.get(e.songId),ready=audioMatches(meta,required);
+ const audioError=ready?undefined:!meta?'음원 미설치':meta.audioVersion!==required.audioVersion?'음원 버전 불일치':meta.sha256!==required.sha256?'음원 해시 불일치':'음원 길이 또는 크기 불일치';
+ return {...base,...s,lines:s.lines,lyrics:s.lines,coverUrl:e.coverFile?CONTENT_ROOT+e.coverFile:undefined,requiredAudio:required,contentReady:true,audioReady:ready,audioError,audioVersion:meta?.audioVersion,audioUrl:ready?await createAudioObjectUrl(e.songId):undefined};
+ }catch(error){return {...base,contentError:error instanceof Error?error.message:'콘텐츠 오류'};}
+ }));
 }
 export function revokeSongAudioUrls(songs:Song[]){for(const s of songs)if(s.audioUrl?.startsWith('blob:'))URL.revokeObjectURL(s.audioUrl)}

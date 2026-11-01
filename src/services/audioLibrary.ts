@@ -16,7 +16,7 @@ export async function clearInstalledAudio():Promise<void>{await request<undefine
 
 async function sha256Hex(blob:Blob):Promise<string>{const hash=await crypto.subtle.digest('SHA-256',await blob.arrayBuffer());return Array.from(new Uint8Array(hash),b=>b.toString(16).padStart(2,'0')).join('')}
 function safePath(v:string){return!!v&&!v.startsWith('/')&&!v.includes('..')&&!v.includes('://')}
-export function audioMatches(meta:InstalledAudioMeta|undefined,required?:RequiredAudio):boolean{if(!meta)return false;if(!required)return true;return(!required.audioVersion||meta.audioVersion===required.audioVersion)&&(!required.sha256||meta.sha256.toLowerCase()===required.sha256.toLowerCase())&&(!required.byteLength||meta.byteLength===required.byteLength)}
+export function audioMatches(meta:InstalledAudioMeta|undefined,required?:RequiredAudio):boolean{if(!meta)return false;if(!required)return true;return(!required.audioVersion||meta.audioVersion===required.audioVersion)&&(!required.sha256||meta.sha256.toLowerCase()===required.sha256.toLowerCase())&&(!required.byteLength||meta.byteLength===required.byteLength)&&(!required.durationMs||meta.durationMs===required.durationMs)}
 
 export async function installAudioPack(file:File,expectedBySong:Record<string,RequiredAudio|undefined>={},progress:(message:string)=>void=()=>{}):Promise<InstalledAudioMeta[]>{
   progress('ZIP 파일을 읽고 있습니다.');const bytes=new Uint8Array(await file.arrayBuffer());validateZipPaths(bytes);const zip=await JSZip.loadAsync(bytes,{checkCRC32:true}),manifestEntry=zip.file('manifest.json');

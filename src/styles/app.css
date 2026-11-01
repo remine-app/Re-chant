@@ -38,3 +38,6 @@ button{font-weight:500}h1,h2,h3,b,strong{font-weight:600}input{font-size:16px}.s
 @media(max-height:450px){.practice-layout{overflow:auto}.practice-layout .lyrics-scroll{flex:1 0 132px}.practice-layout .player-controls{height:106px}}
 
 .lyrics-content{padding:16px 0 45%}.practice-cover:after{content:"";position:absolute;right:0;top:0;width:62%;height:100%;background:url("/images/lightstick.webp") 55% 12%/cover;mask-image:linear-gradient(90deg,transparent,#000 55%);opacity:.65;pointer-events:none}.practice-cover>div,.practice-cover>img{position:relative;z-index:1}.practice-cover>div:not(.art){max-width:75%}
+/* Runtime spans retain the exact spacing exported by Studio. */
+.runtime-row{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
+.runtime-row .chant,.runtime-row .chant-mask{display:inline}
