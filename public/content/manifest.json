@@ -3,8 +3,8 @@
   "contentProfile": "rechant-web-runtime-1",
   "packPurpose": "web-runtime",
   "packId": "rechant-content",
-  "packVersion": "2.0.0",
-  "generatedAt": "2026-11-03T13:30:10.512Z",
+  "packVersion": "2.1.0",
+  "generatedAt": "2026-11-03T15:17:15.555Z",
   "exportMode": "release",
   "songs": [
     {
