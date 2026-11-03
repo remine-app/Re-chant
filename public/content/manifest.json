@@ -3,8 +3,8 @@
   "contentProfile": "rechant-web-runtime-1",
   "packPurpose": "web-runtime",
   "packId": "rechant-content",
-  "packVersion": "1.2.0",
-  "generatedAt": "2026-11-02T10:45:53.862Z",
+  "packVersion": "2.0.0",
+  "generatedAt": "2026-11-03T13:30:10.512Z",
   "exportMode": "release",
   "songs": [
     {
@@ -192,6 +192,40 @@
         "durationMs": 206976,
         "sha256": "f2e05f9ec2dc1e640b0831e4fc62ecc43699a1780e8dee119a0c586917a22a32",
         "byteLength": 4484538
+      }
+    },
+    {
+      "songId": "with",
+      "title": "With",
+      "artist": "RESCENE",
+      "album": "PULSE",
+      "version": "0.1.0-review",
+      "durationMs": 189022,
+      "accentColor": "#ec4778",
+      "dataFile": "songs/with.json",
+      "coverFile": "assets/with/cover.webp",
+      "requiredAudio": {
+        "audioVersion": "1.0.0",
+        "durationMs": 189022,
+        "sha256": "533c619464ddf8025512967634e97f47776fc5a354c044ba153aa9516c21c11d",
+        "byteLength": 7562190
+      }
+    },
+    {
+      "songId": "inside-out",
+      "title": "백화요란 (Inside Out)",
+      "artist": "RESCENE",
+      "album": "PULSE",
+      "version": "0.1.0-review",
+      "durationMs": 213029,
+      "accentColor": "#ec4778",
+      "dataFile": "songs/inside-out.json",
+      "coverFile": "assets/inside-out/cover.webp",
+      "requiredAudio": {
+        "audioVersion": "1.0.0",
+        "durationMs": 213029,
+        "sha256": "353074b6e63be05083ef4aeed3a01ab259c7c55c32934f00345b97b93055d612",
+        "byteLength": 8522491
       }
     }
   ]

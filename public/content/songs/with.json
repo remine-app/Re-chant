@@ -1,0 +1,2278 @@
+{
+  "schemaVersion": "rechant-song-content-1",
+  "contentProfile": "rechant-web-runtime-1",
+  "performanceSchema": "rechant-performance-1",
+  "songId": "with",
+  "title": "With",
+  "artist": "RESCENE",
+  "album": "PULSE",
+  "version": "0.1.0-review",
+  "durationMs": 189022,
+  "defaultOffsetMs": 0,
+  "accentColor": "#ec4778",
+  "practiceDurationMs": 189022,
+  "outroHoldMs": 4000,
+  "chantEvents": [
+    {
+      "id": "with-chant-001",
+      "text": "(함성)",
+      "startMs": 4945,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-001",
+      "hintKind": "extra",
+      "hintDisplay": "○○"
+    },
+    {
+      "id": "with-chant-002",
+      "text": "리! 센! 느!",
+      "startMs": 11579,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-002",
+      "hintKind": "extra",
+      "hintDisplay": "○ ○ ○"
+    },
+    {
+      "id": "with-chant-003",
+      "text": "oh oh oh nah",
+      "startMs": 17478,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-004",
+      "hintKind": "original",
+      "hintDisplay": "oh oh oh nah"
+    },
+    {
+      "id": "with-chant-004",
+      "text": "(함성)",
+      "startMs": 21713,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-005",
+      "hintKind": "extra",
+      "hintDisplay": "○○"
+    },
+    {
+      "id": "with-chant-005",
+      "text": "oh oh yeah",
+      "startMs": 23811,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-006",
+      "hintKind": "original",
+      "hintDisplay": "oh oh yeah"
+    },
+    {
+      "id": "with-chant-006",
+      "text": "맘을 던져",
+      "startMs": 29178,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-008",
+      "hintKind": "original",
+      "hintDisplay": "맘을 던져"
+    },
+    {
+      "id": "with-chant-007",
+      "text": "리센느",
+      "startMs": 46845,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-015",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-008",
+      "text": "It's all",
+      "startMs": 59112,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-019",
+      "hintKind": "original",
+      "hintDisplay": "It's all"
+    },
+    {
+      "id": "with-chant-009",
+      "text": "You",
+      "startMs": 62112,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-020",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-010",
+      "text": "You",
+      "startMs": 65112,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-020",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-011",
+      "text": "네게 난",
+      "startMs": 69477,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-022",
+      "hintKind": "original",
+      "hintDisplay": "네게 난"
+    },
+    {
+      "id": "with-chant-012",
+      "text": "우릴 부를 때",
+      "startMs": 76344,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-026",
+      "hintKind": "original",
+      "hintDisplay": "우릴 부를 때"
+    },
+    {
+      "id": "with-chant-013",
+      "text": "감정",
+      "startMs": 79746,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-027",
+      "hintKind": "original",
+      "hintDisplay": "감정"
+    },
+    {
+      "id": "with-chant-014",
+      "text": "함성",
+      "startMs": 82645,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-028",
+      "hintKind": "original",
+      "hintDisplay": "함성"
+    },
+    {
+      "id": "with-chant-015",
+      "text": "맘을 던져",
+      "startMs": 87678,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-030",
+      "hintKind": "original",
+      "hintDisplay": "맘을 던져"
+    },
+    {
+      "id": "with-chant-016",
+      "text": "리센느",
+      "startMs": 105345,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-036",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-017",
+      "text": "It's all",
+      "startMs": 117611,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-040",
+      "hintKind": "original",
+      "hintDisplay": "It's all"
+    },
+    {
+      "id": "with-chant-018",
+      "text": "You",
+      "startMs": 120612,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-041",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-019",
+      "text": "You",
+      "startMs": 123579,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-041",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "with-chant-020",
+      "text": "네게 난",
+      "startMs": 128044,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-043",
+      "hintKind": "original",
+      "hintDisplay": "네게 난"
+    },
+    {
+      "id": "with-chant-021",
+      "text": "Nothin’ b-b-breaks",
+      "startMs": 139477,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-048",
+      "hintKind": "original",
+      "hintDisplay": "Nothin’ b-b-breaks"
+    },
+    {
+      "id": "with-chant-022",
+      "text": "(함성)",
+      "startMs": 142244,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-049",
+      "hintKind": "extra",
+      "hintDisplay": "○○"
+    },
+    {
+      "id": "with-chant-023",
+      "text": "정원이 진경은 미나미 이예빈 김가영",
+      "startMs": 153844,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-054",
+      "hintKind": "extra",
+      "hintDisplay": "○○○ ○○○ ○○○ ○○○ ○○○"
+    },
+    {
+      "id": "with-chant-024",
+      "text": "리마인 함! 께! 해! 줘!",
+      "startMs": 157510,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-054",
+      "hintKind": "extra",
+      "hintDisplay": "○○○ ○ ○ ○ ○"
+    },
+    {
+      "id": "with-chant-025",
+      "text": "네게 난",
+      "startMs": 163178,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-056",
+      "hintKind": "original",
+      "hintDisplay": "네게 난"
+    },
+    {
+      "id": "with-chant-026",
+      "text": "네게 난",
+      "startMs": 174877,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-064",
+      "hintKind": "original",
+      "hintDisplay": "네게 난"
+    },
+    {
+      "id": "with-chant-027",
+      "text": "(함성)",
+      "startMs": 186077,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-069",
+      "hintKind": "extra",
+      "hintDisplay": "○○"
+    }
+  ],
+  "displayGroups": [
+    {
+      "id": "with-row-lrc-001",
+      "startMs": 427,
+      "sourceLineId": "lrc-001",
+      "rows": [
+        {
+          "id": "with-row-lrc-001",
+          "startMs": 427,
+          "text": "You (함성)",
+          "spans": [
+            {
+              "text": "You",
+              "chant": false
+            },
+            {
+              "text": " (함성)",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○",
+              "eventId": "with-chant-001"
+            }
+          ]
+        },
+        {
+          "id": "e01e46b3-7dce-4a8c-807d-3a49a7f6f1c7",
+          "startMs": 427,
+          "text": "",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-002",
+      "startMs": 8739,
+      "sourceLineId": "lrc-002",
+      "rows": [
+        {
+          "id": "with-row-lrc-002",
+          "startMs": 8739,
+          "text": "It’s all you",
+          "spans": [
+            {
+              "text": "It’s all you",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-002",
+          "startMs": 8739,
+          "text": "리! 센! 느!",
+          "spans": [
+            {
+              "text": "리! 센! 느!",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○ ○ ○",
+              "eventId": "with-chant-002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-003",
+      "startMs": 12739,
+      "sourceLineId": "lrc-003",
+      "rows": [
+        {
+          "id": "with-row-lrc-003",
+          "startMs": 12739,
+          "text": "기나긴 기다림 그 끝에 움켜쥔",
+          "spans": [
+            {
+              "text": "기나긴 기다림 그 끝에 움켜쥔",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-004",
+      "startMs": 15739,
+      "sourceLineId": "lrc-004",
+      "rows": [
+        {
+          "id": "with-row-lrc-004",
+          "startMs": 15739,
+          "text": "한 번의 반짝임 (oh oh oh nah)",
+          "spans": [
+            {
+              "text": "한 번의 반짝임 (",
+              "chant": false
+            },
+            {
+              "text": "oh oh oh nah",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "oh oh oh nah",
+              "eventId": "with-chant-003"
+            },
+            {
+              "text": ")",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-005",
+      "startMs": 18739,
+      "sourceLineId": "lrc-005",
+      "rows": [
+        {
+          "id": "with-row-lrc-005",
+          "startMs": 18739,
+          "text": "귓가에 조금씩 커지던 목소리 (함성)",
+          "spans": [
+            {
+              "text": "귓가에 조금씩 커지던 목소리",
+              "chant": false
+            },
+            {
+              "text": " (함성)",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○",
+              "eventId": "with-chant-004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-006",
+      "startMs": 21739,
+      "sourceLineId": "lrc-006",
+      "rows": [
+        {
+          "id": "with-row-lrc-006",
+          "startMs": 21739,
+          "text": "Like a fantasy, oh oh yeah",
+          "spans": [
+            {
+              "text": "Like a fantasy, ",
+              "chant": false
+            },
+            {
+              "text": "oh oh yeah",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "oh oh yeah",
+              "eventId": "with-chant-005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-007",
+      "startMs": 24739,
+      "sourceLineId": "lrc-007",
+      "rows": [
+        {
+          "id": "with-row-lrc-007",
+          "startMs": 24739,
+          "text": "널 향해 달려가 There's no danger",
+          "spans": [
+            {
+              "text": "널 향해 달려가 There's no danger",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-008",
+      "startMs": 27339,
+      "sourceLineId": "lrc-008",
+      "rows": [
+        {
+          "id": "with-row-lrc-008",
+          "startMs": 27339,
+          "text": "간직했던 내 모든 맘을 던져",
+          "spans": [
+            {
+              "text": "간직했던 내 모든 ",
+              "chant": false
+            },
+            {
+              "text": "맘을 던져",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "맘을 던져",
+              "eventId": "with-chant-006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-009",
+      "startMs": 31339,
+      "sourceLineId": "lrc-009",
+      "rows": [
+        {
+          "id": "with-row-lrc-009",
+          "startMs": 31339,
+          "text": "비로소 너와 난 Together",
+          "spans": [
+            {
+              "text": "비로소 너와 난 Together",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-010",
+      "startMs": 33939,
+      "sourceLineId": "lrc-010",
+      "rows": [
+        {
+          "id": "with-row-lrc-010",
+          "startMs": 33939,
+          "text": "Ah",
+          "spans": [
+            {
+              "text": "Ah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-011",
+      "startMs": 36339,
+      "sourceLineId": "lrc-011",
+      "rows": [
+        {
+          "id": "with-row-lrc-011",
+          "startMs": 36339,
+          "text": "눈 앞에 쏟아진 빛",
+          "spans": [
+            {
+              "text": "눈 앞에 쏟아진 빛",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-012",
+      "startMs": 39339,
+      "sourceLineId": "lrc-012",
+      "rows": [
+        {
+          "id": "with-row-lrc-012",
+          "startMs": 39339,
+          "text": "바라고 바라온 scene",
+          "spans": [
+            {
+              "text": "바라고 바라온 scene",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-013",
+      "startMs": 41939,
+      "sourceLineId": "lrc-013",
+      "rows": [
+        {
+          "id": "with-row-lrc-013",
+          "startMs": 41939,
+          "text": "You're in my sight",
+          "spans": [
+            {
+              "text": "You're in my sight",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-014",
+      "startMs": 43339,
+      "sourceLineId": "lrc-014",
+      "rows": [
+        {
+          "id": "with-row-lrc-014",
+          "startMs": 43339,
+          "text": "You take my heart",
+          "spans": [
+            {
+              "text": "You take my heart",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-015",
+      "startMs": 44339,
+      "sourceLineId": "lrc-015",
+      "rows": [
+        {
+          "id": "with-row-lrc-015",
+          "startMs": 44339,
+          "text": "나를 부르는 echo, yeah",
+          "spans": [
+            {
+              "text": "나를 부르는 echo, yeah",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-007",
+          "startMs": 44339,
+          "text": "리센느",
+          "spans": [
+            {
+              "text": "리센느",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-016",
+      "startMs": 47939,
+      "sourceLineId": "lrc-016",
+      "rows": [
+        {
+          "id": "with-row-lrc-016",
+          "startMs": 47939,
+          "text": "Runnin’ on, runnin’ on, runnin’ on you",
+          "spans": [
+            {
+              "text": "Runnin’ on, runnin’ on, runnin’ on you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-017",
+      "startMs": 50939,
+      "sourceLineId": "lrc-017",
+      "rows": [
+        {
+          "id": "with-row-lrc-017",
+          "startMs": 50939,
+          "text": "Runnin' now, runnin' now, runnin' to you",
+          "spans": [
+            {
+              "text": "Runnin' now, runnin' now, runnin' to you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-018",
+      "startMs": 53939,
+      "sourceLineId": "lrc-018",
+      "rows": [
+        {
+          "id": "with-row-lrc-018",
+          "startMs": 53939,
+          "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+          "spans": [
+            {
+              "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-019",
+      "startMs": 56939,
+      "sourceLineId": "lrc-019",
+      "rows": [
+        {
+          "id": "with-row-lrc-019",
+          "startMs": 56939,
+          "text": "날 부르는 메아리 It's all",
+          "spans": [
+            {
+              "text": "날 부르는 메아리 ",
+              "chant": false
+            },
+            {
+              "text": "It's all",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "It's all",
+              "eventId": "with-chant-008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-020",
+      "startMs": 59939,
+      "sourceLineId": "lrc-020",
+      "rows": [
+        {
+          "id": "with-row-lrc-020",
+          "startMs": 59939,
+          "text": "You, you",
+          "spans": [
+            {
+              "text": "You, you",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-009",
+          "startMs": 59939,
+          "text": "You",
+          "spans": [
+            {
+              "text": "You",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-009"
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-010",
+          "startMs": 59939,
+          "text": "You",
+          "spans": [
+            {
+              "text": "You",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-021",
+      "startMs": 65539,
+      "sourceLineId": "lrc-021",
+      "rows": [
+        {
+          "id": "with-row-lrc-021",
+          "startMs": 65539,
+          "text": "내 심장을 뛰게 한 그 순간",
+          "spans": [
+            {
+              "text": "내 심장을 뛰게 한 그 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-022",
+      "startMs": 68539,
+      "sourceLineId": "lrc-022",
+      "rows": [
+        {
+          "id": "with-row-lrc-022",
+          "startMs": 68539,
+          "text": "내게 넌 네게 난",
+          "spans": [
+            {
+              "text": "내게 넌 ",
+              "chant": false
+            },
+            {
+              "text": "네게 난",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "네게 난",
+              "eventId": "with-chant-011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-023",
+      "startMs": 70139,
+      "sourceLineId": "lrc-023",
+      "rows": [
+        {
+          "id": "with-row-lrc-023",
+          "startMs": 70139,
+          "text": "Nobody else but you",
+          "spans": [
+            {
+              "text": "Nobody else but you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-024",
+      "startMs": 72139,
+      "sourceLineId": "lrc-024",
+      "rows": [
+        {
+          "id": "with-row-lrc-024",
+          "startMs": 72139,
+          "text": "파도치는 목소리로",
+          "spans": [
+            {
+              "text": "파도치는 목소리로",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-025",
+      "startMs": 74539,
+      "sourceLineId": "lrc-025",
+      "rows": [
+        {
+          "id": "with-row-lrc-025",
+          "startMs": 74539,
+          "text": "나를 부를 때",
+          "spans": [
+            {
+              "text": "나를 부를 때",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-026",
+      "startMs": 75539,
+      "sourceLineId": "lrc-026",
+      "rows": [
+        {
+          "id": "with-row-lrc-026",
+          "startMs": 75539,
+          "text": "우릴 부를 때",
+          "spans": [
+            {
+              "text": "우릴 부를 때",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "우릴 부를 때",
+              "eventId": "with-chant-012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-027",
+      "startMs": 77139,
+      "sourceLineId": "lrc-027",
+      "rows": [
+        {
+          "id": "with-row-lrc-027",
+          "startMs": 77139,
+          "text": "차오르는 전율 속에 되살아난 감정",
+          "spans": [
+            {
+              "text": "차오르는 전율 속에 되살아난 ",
+              "chant": false
+            },
+            {
+              "text": "감정",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "감정",
+              "eventId": "with-chant-013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-028",
+      "startMs": 80139,
+      "sourceLineId": "lrc-028",
+      "rows": [
+        {
+          "id": "with-row-lrc-028",
+          "startMs": 80139,
+          "text": "온 힘 다해 닿을수록 커져가는 함성",
+          "spans": [
+            {
+              "text": "온 힘 다해 닿을수록 커져가는 ",
+              "chant": false
+            },
+            {
+              "text": "함성",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "함성",
+              "eventId": "with-chant-014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-029",
+      "startMs": 83139,
+      "sourceLineId": "lrc-029",
+      "rows": [
+        {
+          "id": "with-row-lrc-029",
+          "startMs": 83139,
+          "text": "난 너에게 달려가 There's no danger",
+          "spans": [
+            {
+              "text": "난 너에게 달려가 There's no danger",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-030",
+      "startMs": 86139,
+      "sourceLineId": "lrc-030",
+      "rows": [
+        {
+          "id": "with-row-lrc-030",
+          "startMs": 86139,
+          "text": "참아왔던 내 모든 맘을 던져",
+          "spans": [
+            {
+              "text": "참아왔던 내 모든 ",
+              "chant": false
+            },
+            {
+              "text": "맘을 던져",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "맘을 던져",
+              "eventId": "with-chant-015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-031",
+      "startMs": 90139,
+      "sourceLineId": "lrc-031",
+      "rows": [
+        {
+          "id": "with-row-lrc-031",
+          "startMs": 90139,
+          "text": "꼭 영원히 Together",
+          "spans": [
+            {
+              "text": "꼭 영원히 Together",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-032",
+      "startMs": 92139,
+      "sourceLineId": "lrc-032",
+      "rows": [
+        {
+          "id": "with-row-lrc-032",
+          "startMs": 92139,
+          "text": "Ah",
+          "spans": [
+            {
+              "text": "Ah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-033",
+      "startMs": 94739,
+      "sourceLineId": "lrc-033",
+      "rows": [
+        {
+          "id": "with-row-lrc-033",
+          "startMs": 94739,
+          "text": "닫혔던 내 심장이",
+          "spans": [
+            {
+              "text": "닫혔던 내 심장이",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-034",
+      "startMs": 97739,
+      "sourceLineId": "lrc-034",
+      "rows": [
+        {
+          "id": "with-row-lrc-034",
+          "startMs": 97739,
+          "text": "다시 또 새롭게 Breathe",
+          "spans": [
+            {
+              "text": "다시 또 새롭게 Breathe",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-035",
+      "startMs": 100739,
+      "sourceLineId": "lrc-035",
+      "rows": [
+        {
+          "id": "with-row-lrc-035",
+          "startMs": 100739,
+          "text": "눈을 감아 어디선가",
+          "spans": [
+            {
+              "text": "눈을 감아 어디선가",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-036",
+      "startMs": 103139,
+      "sourceLineId": "lrc-036",
+      "rows": [
+        {
+          "id": "with-row-lrc-036",
+          "startMs": 103139,
+          "text": "나를 부르는 echo, yeah",
+          "spans": [
+            {
+              "text": "나를 부르는 echo, yeah",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-016",
+          "startMs": 103139,
+          "text": "리센느",
+          "spans": [
+            {
+              "text": "리센느",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-037",
+      "startMs": 106739,
+      "sourceLineId": "lrc-037",
+      "rows": [
+        {
+          "id": "with-row-lrc-037",
+          "startMs": 106739,
+          "text": "Runnin’ on, runnin’ on, runnin’ on you",
+          "spans": [
+            {
+              "text": "Runnin’ on, runnin’ on, runnin’ on you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-038",
+      "startMs": 109739,
+      "sourceLineId": "lrc-038",
+      "rows": [
+        {
+          "id": "with-row-lrc-038",
+          "startMs": 109739,
+          "text": "Runnin' now, runnin' now, runnin' to you",
+          "spans": [
+            {
+              "text": "Runnin' now, runnin' now, runnin' to you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-039",
+      "startMs": 112139,
+      "sourceLineId": "lrc-039",
+      "rows": [
+        {
+          "id": "with-row-lrc-039",
+          "startMs": 112139,
+          "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+          "spans": [
+            {
+              "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-040",
+      "startMs": 116139,
+      "sourceLineId": "lrc-040",
+      "rows": [
+        {
+          "id": "with-row-lrc-040",
+          "startMs": 116139,
+          "text": "날 부르는 메아리 It's all",
+          "spans": [
+            {
+              "text": "날 부르는 메아리 ",
+              "chant": false
+            },
+            {
+              "text": "It's all",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "It's all",
+              "eventId": "with-chant-017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-041",
+      "startMs": 119139,
+      "sourceLineId": "lrc-041",
+      "rows": [
+        {
+          "id": "with-row-lrc-041",
+          "startMs": 119139,
+          "text": "You, you",
+          "spans": [
+            {
+              "text": "You, you",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-018",
+          "startMs": 119139,
+          "text": "You",
+          "spans": [
+            {
+              "text": "You",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-018"
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-019",
+          "startMs": 119139,
+          "text": "You",
+          "spans": [
+            {
+              "text": "You",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "with-chant-019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-042",
+      "startMs": 124339,
+      "sourceLineId": "lrc-042",
+      "rows": [
+        {
+          "id": "with-row-lrc-042",
+          "startMs": 124339,
+          "text": "내 심장을 뛰게 한 그 순간",
+          "spans": [
+            {
+              "text": "내 심장을 뛰게 한 그 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-043",
+      "startMs": 127339,
+      "sourceLineId": "lrc-043",
+      "rows": [
+        {
+          "id": "with-row-lrc-043",
+          "startMs": 127339,
+          "text": "내게 넌 네게 난",
+          "spans": [
+            {
+              "text": "내게 넌 ",
+              "chant": false
+            },
+            {
+              "text": "네게 난",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "네게 난",
+              "eventId": "with-chant-020"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-044",
+      "startMs": 128739,
+      "sourceLineId": "lrc-044",
+      "rows": [
+        {
+          "id": "with-row-lrc-044",
+          "startMs": 128739,
+          "text": "Nobody else but you",
+          "spans": [
+            {
+              "text": "Nobody else but you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-045",
+      "startMs": 130339,
+      "sourceLineId": "lrc-045",
+      "rows": [
+        {
+          "id": "with-row-lrc-045",
+          "startMs": 130339,
+          "text": "Yeah 숨차게 달려온 끝에",
+          "spans": [
+            {
+              "text": "Yeah 숨차게 달려온 끝에",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-046",
+      "startMs": 132739,
+      "sourceLineId": "lrc-046",
+      "rows": [
+        {
+          "id": "with-row-lrc-046",
+          "startMs": 132739,
+          "text": "매일 그려온 미래 마주했지 마침내",
+          "spans": [
+            {
+              "text": "매일 그려온 미래 마주했지 마침내",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-047",
+      "startMs": 135339,
+      "sourceLineId": "lrc-047",
+      "rows": [
+        {
+          "id": "with-row-lrc-047",
+          "startMs": 135339,
+          "text": "텅 빈 온기 숨죽인 밤이 지나고 들려와",
+          "spans": [
+            {
+              "text": "텅 빈 온기 숨죽인 밤이 지나고 들려와",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-048",
+      "startMs": 138739,
+      "sourceLineId": "lrc-048",
+      "rows": [
+        {
+          "id": "with-row-lrc-048",
+          "startMs": 138739,
+          "text": "Nothin’ b-b-breaks you and me",
+          "spans": [
+            {
+              "text": "Nothin’ b-b-breaks",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Nothin’ b-b-breaks",
+              "eventId": "with-chant-021"
+            },
+            {
+              "text": " you and me",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-049",
+      "startMs": 140739,
+      "sourceLineId": "lrc-049",
+      "rows": [
+        {
+          "id": "with-row-lrc-049",
+          "startMs": 140739,
+          "text": "Runnin’ on, runnin’ on, runnin’ on you (함성)",
+          "spans": [
+            {
+              "text": "Runnin’ on, runnin’ on, runnin’ on you",
+              "chant": false
+            },
+            {
+              "text": " (함성)",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○",
+              "eventId": "with-chant-022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-050",
+      "startMs": 144739,
+      "sourceLineId": "lrc-050",
+      "rows": [
+        {
+          "id": "with-row-lrc-050",
+          "startMs": 144739,
+          "text": "Runnin' now, runnin' now, runnin' to you",
+          "spans": [
+            {
+              "text": "Runnin' now, runnin' now, runnin' to you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-051",
+      "startMs": 147339,
+      "sourceLineId": "lrc-051",
+      "rows": [
+        {
+          "id": "with-row-lrc-051",
+          "startMs": 147339,
+          "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+          "spans": [
+            {
+              "text": "잠든 맘을 뛰게 해준 너라는 꿈",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-052",
+      "startMs": 150339,
+      "sourceLineId": "lrc-052",
+      "rows": [
+        {
+          "id": "with-row-lrc-052",
+          "startMs": 150339,
+          "text": "(Yeah, It’s you)",
+          "spans": [
+            {
+              "text": "(Yeah, It’s you)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-053",
+      "startMs": 151339,
+      "sourceLineId": "lrc-053",
+      "rows": [
+        {
+          "id": "with-row-lrc-053",
+          "startMs": 151339,
+          "text": "날 부르는 메아리 It's all",
+          "spans": [
+            {
+              "text": "날 부르는 메아리 It's all",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-054",
+      "startMs": 153339,
+      "sourceLineId": "lrc-054",
+      "rows": [
+        {
+          "id": "with-row-lrc-054",
+          "startMs": 153339,
+          "text": "You",
+          "spans": [
+            {
+              "text": "You",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-023",
+          "startMs": 153339,
+          "text": "정원이 진경은 미나미 이예빈 김가영",
+          "spans": [
+            {
+              "text": "정원이 진경은 미나미 이예빈 김가영",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○ ○○○ ○○○ ○○○ ○○○",
+              "eventId": "with-chant-023"
+            }
+          ]
+        },
+        {
+          "id": "with-row-with-chant-024",
+          "startMs": 153339,
+          "text": "리마인 함! 께! 해! 줘!",
+          "spans": [
+            {
+              "text": "리마인 함! 께! 해! 줘!",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○ ○ ○ ○ ○",
+              "eventId": "with-chant-024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-055",
+      "startMs": 159339,
+      "sourceLineId": "lrc-055",
+      "rows": [
+        {
+          "id": "with-row-lrc-055",
+          "startMs": 159339,
+          "text": "내 심장을 뛰게 한 그 순간",
+          "spans": [
+            {
+              "text": "내 심장을 뛰게 한 그 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-056",
+      "startMs": 162339,
+      "sourceLineId": "lrc-056",
+      "rows": [
+        {
+          "id": "with-row-lrc-056",
+          "startMs": 162339,
+          "text": "내게 넌 네게 난",
+          "spans": [
+            {
+              "text": "내게 넌 ",
+              "chant": false
+            },
+            {
+              "text": "네게 난",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "네게 난",
+              "eventId": "with-chant-025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-057",
+      "startMs": 163539,
+      "sourceLineId": "lrc-057",
+      "rows": [
+        {
+          "id": "with-row-lrc-057",
+          "startMs": 163539,
+          "text": "Nobody else but you",
+          "spans": [
+            {
+              "text": "Nobody else but you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-058",
+      "startMs": 165539,
+      "sourceLineId": "lrc-058",
+      "rows": [
+        {
+          "id": "with-row-lrc-058",
+          "startMs": 165539,
+          "text": "(It’s you)",
+          "spans": [
+            {
+              "text": "(It’s you)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-059",
+      "startMs": 165939,
+      "sourceLineId": "lrc-059",
+      "rows": [
+        {
+          "id": "with-row-lrc-059",
+          "startMs": 165939,
+          "text": "I’m runnin’ on, runnin’ on, runnin’ on",
+          "spans": [
+            {
+              "text": "I’m runnin’ on, runnin’ on, runnin’ on",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-060",
+      "startMs": 167539,
+      "sourceLineId": "lrc-060",
+      "rows": [
+        {
+          "id": "with-row-lrc-060",
+          "startMs": 167539,
+          "text": "To you",
+          "spans": [
+            {
+              "text": "To you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-061",
+      "startMs": 168539,
+      "sourceLineId": "lrc-061",
+      "rows": [
+        {
+          "id": "with-row-lrc-061",
+          "startMs": 168539,
+          "text": "Ah",
+          "spans": [
+            {
+              "text": "Ah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-062",
+      "startMs": 170939,
+      "sourceLineId": "lrc-062",
+      "rows": [
+        {
+          "id": "with-row-lrc-062",
+          "startMs": 170939,
+          "text": "Oh I’m runnin’ on, runnin’ on, runnin’ on",
+          "spans": [
+            {
+              "text": "Oh I’m runnin’ on, runnin’ on, runnin’ on",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-063",
+      "startMs": 173539,
+      "sourceLineId": "lrc-063",
+      "rows": [
+        {
+          "id": "with-row-lrc-063",
+          "startMs": 173539,
+          "text": "With you",
+          "spans": [
+            {
+              "text": "With you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-064",
+      "startMs": 174139,
+      "sourceLineId": "lrc-064",
+      "rows": [
+        {
+          "id": "with-row-lrc-064",
+          "startMs": 174139,
+          "text": "(내게 넌 네게 난 Nobody else but you)",
+          "spans": [
+            {
+              "text": "(내게 넌 ",
+              "chant": false
+            },
+            {
+              "text": "네게 난",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "네게 난",
+              "eventId": "with-chant-026"
+            },
+            {
+              "text": " Nobody else but you)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-065",
+      "startMs": 177139,
+      "sourceLineId": "lrc-065",
+      "rows": [
+        {
+          "id": "with-row-lrc-065",
+          "startMs": 177139,
+          "text": "I’m runnin’ on, runnin’ on, runnin’ on",
+          "spans": [
+            {
+              "text": "I’m runnin’ on, runnin’ on, runnin’ on",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-066",
+      "startMs": 179139,
+      "sourceLineId": "lrc-066",
+      "rows": [
+        {
+          "id": "with-row-lrc-066",
+          "startMs": 179139,
+          "text": "To you",
+          "spans": [
+            {
+              "text": "To you",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-067",
+      "startMs": 180139,
+      "sourceLineId": "lrc-067",
+      "rows": [
+        {
+          "id": "with-row-lrc-067",
+          "startMs": 180139,
+          "text": "Ah",
+          "spans": [
+            {
+              "text": "Ah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-068",
+      "startMs": 183139,
+      "sourceLineId": "lrc-068",
+      "rows": [
+        {
+          "id": "with-row-lrc-068",
+          "startMs": 183139,
+          "text": "Oh I’m runnin’ on, runnin’ on, runnin’ on",
+          "spans": [
+            {
+              "text": "Oh I’m runnin’ on, runnin’ on, runnin’ on",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "with-row-lrc-069",
+      "startMs": 185139,
+      "sourceLineId": "lrc-069",
+      "rows": [
+        {
+          "id": "with-row-lrc-069",
+          "startMs": 185139,
+          "text": "With you (함성)",
+          "spans": [
+            {
+              "text": "With you",
+              "chant": false
+            },
+            {
+              "text": " (함성)",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○",
+              "eventId": "with-chant-027"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "lrc-001",
+      "index": 0,
+      "startMs": 427,
+      "endMs": 8738,
+      "lyric": "You"
+    },
+    {
+      "id": "lrc-002",
+      "index": 1,
+      "startMs": 8739,
+      "endMs": 12738,
+      "lyric": "It’s all you"
+    },
+    {
+      "id": "lrc-003",
+      "index": 2,
+      "startMs": 12739,
+      "endMs": 15738,
+      "lyric": "기나긴 기다림 그 끝에 움켜쥔"
+    },
+    {
+      "id": "lrc-004",
+      "index": 3,
+      "startMs": 15739,
+      "endMs": 18738,
+      "lyric": "한 번의 반짝임 (oh oh oh nah)"
+    },
+    {
+      "id": "lrc-005",
+      "index": 4,
+      "startMs": 18739,
+      "endMs": 21738,
+      "lyric": "귓가에 조금씩 커지던 목소리"
+    },
+    {
+      "id": "lrc-006",
+      "index": 5,
+      "startMs": 21739,
+      "endMs": 24738,
+      "lyric": "Like a fantasy, oh oh yeah"
+    },
+    {
+      "id": "lrc-007",
+      "index": 6,
+      "startMs": 24739,
+      "endMs": 27338,
+      "lyric": "널 향해 달려가 There's no danger"
+    },
+    {
+      "id": "lrc-008",
+      "index": 7,
+      "startMs": 27339,
+      "endMs": 31338,
+      "lyric": "간직했던 내 모든 맘을 던져"
+    },
+    {
+      "id": "lrc-009",
+      "index": 8,
+      "startMs": 31339,
+      "endMs": 33938,
+      "lyric": "비로소 너와 난 Together"
+    },
+    {
+      "id": "lrc-010",
+      "index": 9,
+      "startMs": 33939,
+      "endMs": 36338,
+      "lyric": "Ah"
+    },
+    {
+      "id": "lrc-011",
+      "index": 10,
+      "startMs": 36339,
+      "endMs": 39338,
+      "lyric": "눈 앞에 쏟아진 빛"
+    },
+    {
+      "id": "lrc-012",
+      "index": 11,
+      "startMs": 39339,
+      "endMs": 41938,
+      "lyric": "바라고 바라온 scene"
+    },
+    {
+      "id": "lrc-013",
+      "index": 12,
+      "startMs": 41939,
+      "endMs": 43338,
+      "lyric": "You're in my sight"
+    },
+    {
+      "id": "lrc-014",
+      "index": 13,
+      "startMs": 43339,
+      "endMs": 44338,
+      "lyric": "You take my heart"
+    },
+    {
+      "id": "lrc-015",
+      "index": 14,
+      "startMs": 44339,
+      "endMs": 47938,
+      "lyric": "나를 부르는 echo, yeah"
+    },
+    {
+      "id": "lrc-016",
+      "index": 15,
+      "startMs": 47939,
+      "endMs": 50938,
+      "lyric": "Runnin’ on, runnin’ on, runnin’ on you"
+    },
+    {
+      "id": "lrc-017",
+      "index": 16,
+      "startMs": 50939,
+      "endMs": 53938,
+      "lyric": "Runnin' now, runnin' now, runnin' to you"
+    },
+    {
+      "id": "lrc-018",
+      "index": 17,
+      "startMs": 53939,
+      "endMs": 56938,
+      "lyric": "잠든 맘을 뛰게 해준 너라는 꿈"
+    },
+    {
+      "id": "lrc-019",
+      "index": 18,
+      "startMs": 56939,
+      "endMs": 59938,
+      "lyric": "날 부르는 메아리 It's all"
+    },
+    {
+      "id": "lrc-020",
+      "index": 19,
+      "startMs": 59939,
+      "endMs": 65538,
+      "lyric": "You, you"
+    },
+    {
+      "id": "lrc-021",
+      "index": 20,
+      "startMs": 65539,
+      "endMs": 68538,
+      "lyric": "내 심장을 뛰게 한 그 순간"
+    },
+    {
+      "id": "lrc-022",
+      "index": 21,
+      "startMs": 68539,
+      "endMs": 70138,
+      "lyric": "내게 넌 네게 난"
+    },
+    {
+      "id": "lrc-023",
+      "index": 22,
+      "startMs": 70139,
+      "endMs": 72138,
+      "lyric": "Nobody else but you"
+    },
+    {
+      "id": "lrc-024",
+      "index": 23,
+      "startMs": 72139,
+      "endMs": 74538,
+      "lyric": "파도치는 목소리로"
+    },
+    {
+      "id": "lrc-025",
+      "index": 24,
+      "startMs": 74539,
+      "endMs": 75538,
+      "lyric": "나를 부를 때"
+    },
+    {
+      "id": "lrc-026",
+      "index": 25,
+      "startMs": 75539,
+      "endMs": 77138,
+      "lyric": "우릴 부를 때"
+    },
+    {
+      "id": "lrc-027",
+      "index": 26,
+      "startMs": 77139,
+      "endMs": 80138,
+      "lyric": "차오르는 전율 속에 되살아난 감정"
+    },
+    {
+      "id": "lrc-028",
+      "index": 27,
+      "startMs": 80139,
+      "endMs": 83138,
+      "lyric": "온 힘 다해 닿을수록 커져가는 함성"
+    },
+    {
+      "id": "lrc-029",
+      "index": 28,
+      "startMs": 83139,
+      "endMs": 86138,
+      "lyric": "난 너에게 달려가 There's no danger"
+    },
+    {
+      "id": "lrc-030",
+      "index": 29,
+      "startMs": 86139,
+      "endMs": 90138,
+      "lyric": "참아왔던 내 모든 맘을 던져"
+    },
+    {
+      "id": "lrc-031",
+      "index": 30,
+      "startMs": 90139,
+      "endMs": 92138,
+      "lyric": "꼭 영원히 Together"
+    },
+    {
+      "id": "lrc-032",
+      "index": 31,
+      "startMs": 92139,
+      "endMs": 94738,
+      "lyric": "Ah"
+    },
+    {
+      "id": "lrc-033",
+      "index": 32,
+      "startMs": 94739,
+      "endMs": 97738,
+      "lyric": "닫혔던 내 심장이"
+    },
+    {
+      "id": "lrc-034",
+      "index": 33,
+      "startMs": 97739,
+      "endMs": 100738,
+      "lyric": "다시 또 새롭게 Breathe"
+    },
+    {
+      "id": "lrc-035",
+      "index": 34,
+      "startMs": 100739,
+      "endMs": 103138,
+      "lyric": "눈을 감아 어디선가"
+    },
+    {
+      "id": "lrc-036",
+      "index": 35,
+      "startMs": 103139,
+      "endMs": 106738,
+      "lyric": "나를 부르는 echo, yeah"
+    },
+    {
+      "id": "lrc-037",
+      "index": 36,
+      "startMs": 106739,
+      "endMs": 109738,
+      "lyric": "Runnin’ on, runnin’ on, runnin’ on you"
+    },
+    {
+      "id": "lrc-038",
+      "index": 37,
+      "startMs": 109739,
+      "endMs": 112138,
+      "lyric": "Runnin' now, runnin' now, runnin' to you"
+    },
+    {
+      "id": "lrc-039",
+      "index": 38,
+      "startMs": 112139,
+      "endMs": 116138,
+      "lyric": "잠든 맘을 뛰게 해준 너라는 꿈"
+    },
+    {
+      "id": "lrc-040",
+      "index": 39,
+      "startMs": 116139,
+      "endMs": 119138,
+      "lyric": "날 부르는 메아리 It's all"
+    },
+    {
+      "id": "lrc-041",
+      "index": 40,
+      "startMs": 119139,
+      "endMs": 124338,
+      "lyric": "You, you"
+    },
+    {
+      "id": "lrc-042",
+      "index": 41,
+      "startMs": 124339,
+      "endMs": 127338,
+      "lyric": "내 심장을 뛰게 한 그 순간"
+    },
+    {
+      "id": "lrc-043",
+      "index": 42,
+      "startMs": 127339,
+      "endMs": 128738,
+      "lyric": "내게 넌 네게 난"
+    },
+    {
+      "id": "lrc-044",
+      "index": 43,
+      "startMs": 128739,
+      "endMs": 130338,
+      "lyric": "Nobody else but you"
+    },
+    {
+      "id": "lrc-045",
+      "index": 44,
+      "startMs": 130339,
+      "endMs": 132738,
+      "lyric": "Yeah 숨차게 달려온 끝에"
+    },
+    {
+      "id": "lrc-046",
+      "index": 45,
+      "startMs": 132739,
+      "endMs": 135338,
+      "lyric": "매일 그려온 미래 마주했지 마침내"
+    },
+    {
+      "id": "lrc-047",
+      "index": 46,
+      "startMs": 135339,
+      "endMs": 138738,
+      "lyric": "텅 빈 온기 숨죽인 밤이 지나고 들려와"
+    },
+    {
+      "id": "lrc-048",
+      "index": 47,
+      "startMs": 138739,
+      "endMs": 140738,
+      "lyric": "Nothin’ b-b-breaks you and me"
+    },
+    {
+      "id": "lrc-049",
+      "index": 48,
+      "startMs": 140739,
+      "endMs": 144738,
+      "lyric": "Runnin’ on, runnin’ on, runnin’ on you"
+    },
+    {
+      "id": "lrc-050",
+      "index": 49,
+      "startMs": 144739,
+      "endMs": 147338,
+      "lyric": "Runnin' now, runnin' now, runnin' to you"
+    },
+    {
+      "id": "lrc-051",
+      "index": 50,
+      "startMs": 147339,
+      "endMs": 150338,
+      "lyric": "잠든 맘을 뛰게 해준 너라는 꿈"
+    },
+    {
+      "id": "lrc-052",
+      "index": 51,
+      "startMs": 150339,
+      "endMs": 151338,
+      "lyric": "(Yeah, It’s you)"
+    },
+    {
+      "id": "lrc-053",
+      "index": 52,
+      "startMs": 151339,
+      "endMs": 153338,
+      "lyric": "날 부르는 메아리 It's all"
+    },
+    {
+      "id": "lrc-054",
+      "index": 53,
+      "startMs": 153339,
+      "endMs": 159338,
+      "lyric": "You"
+    },
+    {
+      "id": "lrc-055",
+      "index": 54,
+      "startMs": 159339,
+      "endMs": 162338,
+      "lyric": "내 심장을 뛰게 한 그 순간"
+    },
+    {
+      "id": "lrc-056",
+      "index": 55,
+      "startMs": 162339,
+      "endMs": 163538,
+      "lyric": "내게 넌 네게 난"
+    },
+    {
+      "id": "lrc-057",
+      "index": 56,
+      "startMs": 163539,
+      "endMs": 165538,
+      "lyric": "Nobody else but you"
+    },
+    {
+      "id": "lrc-058",
+      "index": 57,
+      "startMs": 165539,
+      "endMs": 165938,
+      "lyric": "(It’s you)"
+    },
+    {
+      "id": "lrc-059",
+      "index": 58,
+      "startMs": 165939,
+      "endMs": 167538,
+      "lyric": "I’m runnin’ on, runnin’ on, runnin’ on"
+    },
+    {
+      "id": "lrc-060",
+      "index": 59,
+      "startMs": 167539,
+      "endMs": 168538,
+      "lyric": "To you"
+    },
+    {
+      "id": "lrc-061",
+      "index": 60,
+      "startMs": 168539,
+      "endMs": 170938,
+      "lyric": "Ah"
+    },
+    {
+      "id": "lrc-062",
+      "index": 61,
+      "startMs": 170939,
+      "endMs": 173538,
+      "lyric": "Oh I’m runnin’ on, runnin’ on, runnin’ on"
+    },
+    {
+      "id": "lrc-063",
+      "index": 62,
+      "startMs": 173539,
+      "endMs": 174138,
+      "lyric": "With you"
+    },
+    {
+      "id": "lrc-064",
+      "index": 63,
+      "startMs": 174139,
+      "endMs": 177138,
+      "lyric": "(내게 넌 네게 난 Nobody else but you)"
+    },
+    {
+      "id": "lrc-065",
+      "index": 64,
+      "startMs": 177139,
+      "endMs": 179138,
+      "lyric": "I’m runnin’ on, runnin’ on, runnin’ on"
+    },
+    {
+      "id": "lrc-066",
+      "index": 65,
+      "startMs": 179139,
+      "endMs": 180138,
+      "lyric": "To you"
+    },
+    {
+      "id": "lrc-067",
+      "index": 66,
+      "startMs": 180139,
+      "endMs": 183138,
+      "lyric": "Ah"
+    },
+    {
+      "id": "lrc-068",
+      "index": 67,
+      "startMs": 183139,
+      "endMs": 185138,
+      "lyric": "Oh I’m runnin’ on, runnin’ on, runnin’ on"
+    },
+    {
+      "id": "lrc-069",
+      "index": 68,
+      "startMs": 185139,
+      "endMs": 189021,
+      "lyric": "With you"
+    }
+  ]
+}

@@ -1,0 +1,2943 @@
+{
+  "schemaVersion": "rechant-song-content-1",
+  "contentProfile": "rechant-web-runtime-1",
+  "performanceSchema": "rechant-performance-1",
+  "songId": "inside-out",
+  "title": "백화요란 (Inside Out)",
+  "artist": "RESCENE",
+  "album": "PULSE",
+  "version": "0.1.0-review",
+  "durationMs": 213029,
+  "defaultOffsetMs": 0,
+  "accentColor": "#ec4778",
+  "practiceDurationMs": 213029,
+  "outroHoldMs": 4000,
+  "chantEvents": [
+    {
+      "id": "inside-out-chant-001",
+      "text": "백! 화! 요! 란! Inside out!",
+      "startMs": 5245,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-001",
+      "hintKind": "extra",
+      "hintDisplay": "○ ○ ○ ○ ○○○○○○ ○○○"
+    },
+    {
+      "id": "inside-out-chant-002",
+      "text": "너!",
+      "startMs": 11812,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-003",
+      "hintKind": "extra",
+      "hintDisplay": "○"
+    },
+    {
+      "id": "inside-out-chant-003",
+      "text": "나!",
+      "startMs": 22378,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-008",
+      "hintKind": "extra",
+      "hintDisplay": "○"
+    },
+    {
+      "id": "inside-out-chant-004",
+      "text": "꽃처럼",
+      "startMs": 35412,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-013",
+      "hintKind": "original",
+      "hintDisplay": "꽃처럼"
+    },
+    {
+      "id": "inside-out-chant-005",
+      "text": "눈부셔",
+      "startMs": 38212,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-014",
+      "hintKind": "original",
+      "hintDisplay": "눈부셔"
+    },
+    {
+      "id": "inside-out-chant-006",
+      "text": "Do you",
+      "startMs": 46513,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-017",
+      "hintKind": "original",
+      "hintDisplay": "Do you"
+    },
+    {
+      "id": "inside-out-chant-007",
+      "text": "flower, flower",
+      "startMs": 50178,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-020",
+      "hintKind": "original",
+      "hintDisplay": "flower, flower"
+    },
+    {
+      "id": "inside-out-chant-008",
+      "text": "Higher, higher",
+      "startMs": 55145,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-023",
+      "hintKind": "original",
+      "hintDisplay": "Higher, higher"
+    },
+    {
+      "id": "inside-out-chant-009",
+      "text": "oh my",
+      "startMs": 61547,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-025",
+      "hintKind": "extra",
+      "hintDisplay": "○○ ○○"
+    },
+    {
+      "id": "inside-out-chant-010",
+      "text": "Inside out",
+      "startMs": 67547,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-027",
+      "hintKind": "original",
+      "hintDisplay": "Inside out"
+    },
+    {
+      "id": "inside-out-chant-011",
+      "text": "더 더",
+      "startMs": 71311,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-029",
+      "hintKind": "original",
+      "hintDisplay": "더 더"
+    },
+    {
+      "id": "inside-out-chant-012",
+      "text": "더 더",
+      "startMs": 81311,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-034",
+      "hintKind": "original",
+      "hintDisplay": "더 더"
+    },
+    {
+      "id": "inside-out-chant-013",
+      "text": "Yeah yeah",
+      "startMs": 89046,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-037",
+      "hintKind": "original",
+      "hintDisplay": "Yeah yeah"
+    },
+    {
+      "id": "inside-out-chant-014",
+      "text": "Oh la la",
+      "startMs": 95545,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-040",
+      "hintKind": "original",
+      "hintDisplay": "Oh la la"
+    },
+    {
+      "id": "inside-out-chant-015",
+      "text": "Fall in love",
+      "startMs": 96945,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-041",
+      "hintKind": "original",
+      "hintDisplay": "Fall in love"
+    },
+    {
+      "id": "inside-out-chant-016",
+      "text": "보여줘",
+      "startMs": 109211,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-046",
+      "hintKind": "extra",
+      "hintDisplay": "○○○"
+    },
+    {
+      "id": "inside-out-chant-017",
+      "text": "순간",
+      "startMs": 115645,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-049",
+      "hintKind": "original",
+      "hintDisplay": "순간"
+    },
+    {
+      "id": "inside-out-chant-018",
+      "text": "my scent",
+      "startMs": 118479,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-050",
+      "hintKind": "original",
+      "hintDisplay": "my scent"
+    },
+    {
+      "id": "inside-out-chant-019",
+      "text": "Do you",
+      "startMs": 126513,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-053",
+      "hintKind": "original",
+      "hintDisplay": "Do you"
+    },
+    {
+      "id": "inside-out-chant-020",
+      "text": "flower, flower",
+      "startMs": 130211,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-056",
+      "hintKind": "original",
+      "hintDisplay": "flower, flower"
+    },
+    {
+      "id": "inside-out-chant-021",
+      "text": "higher, higher",
+      "startMs": 135145,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-059",
+      "hintKind": "original",
+      "hintDisplay": "higher, higher"
+    },
+    {
+      "id": "inside-out-chant-022",
+      "text": "oh my",
+      "startMs": 141513,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-061",
+      "hintKind": "extra",
+      "hintDisplay": "○○ ○○"
+    },
+    {
+      "id": "inside-out-chant-023",
+      "text": "Inside out",
+      "startMs": 147514,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-063",
+      "hintKind": "original",
+      "hintDisplay": "Inside out"
+    },
+    {
+      "id": "inside-out-chant-024",
+      "text": "me",
+      "startMs": 161212,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-069",
+      "hintKind": "original",
+      "hintDisplay": "me"
+    },
+    {
+      "id": "inside-out-chant-025",
+      "text": "right now",
+      "startMs": 163512,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-070",
+      "hintKind": "original",
+      "hintDisplay": "right now"
+    },
+    {
+      "id": "inside-out-chant-026",
+      "text": "flower, flower",
+      "startMs": 170211,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-074",
+      "hintKind": "original",
+      "hintDisplay": "flower, flower"
+    },
+    {
+      "id": "inside-out-chant-027",
+      "text": "higher, higher",
+      "startMs": 175078,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-077",
+      "hintKind": "original",
+      "hintDisplay": "higher, higher"
+    },
+    {
+      "id": "inside-out-chant-028",
+      "text": "oh my",
+      "startMs": 181513,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-080",
+      "hintKind": "extra",
+      "hintDisplay": "○○ ○○"
+    },
+    {
+      "id": "inside-out-chant-029",
+      "text": "Inside out",
+      "startMs": 187514,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-081",
+      "hintKind": "original",
+      "hintDisplay": "Inside out"
+    },
+    {
+      "id": "inside-out-chant-030",
+      "text": "더 더",
+      "startMs": 191211,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-083",
+      "hintKind": "original",
+      "hintDisplay": "더 더"
+    },
+    {
+      "id": "inside-out-chant-031",
+      "text": "더 더",
+      "startMs": 201245,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-088",
+      "hintKind": "original",
+      "hintDisplay": "더 더"
+    },
+    {
+      "id": "inside-out-chant-032",
+      "text": "inside out",
+      "startMs": 207579,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-091",
+      "hintKind": "original",
+      "hintDisplay": "inside out"
+    },
+    {
+      "id": "inside-out-chant-033",
+      "text": "(함성)",
+      "startMs": 209345,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-091",
+      "hintKind": "extra",
+      "hintDisplay": "○○"
+    },
+    {
+      "id": "document-inside-out-row-lrc-068-span-1",
+      "text": "이",
+      "startMs": 159174,
+      "leadMs": 0,
+      "type": "between-lyrics",
+      "nextLyricLineId": "lrc-068",
+      "hintKind": "extra",
+      "hintDisplay": "○"
+    }
+  ],
+  "displayGroups": [
+    {
+      "id": "inside-out-row-lrc-001",
+      "startMs": 0,
+      "sourceLineId": "lrc-001",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-001",
+          "startMs": 0,
+          "text": "(Ooh ah, yeah I’m blooming like a)",
+          "spans": [
+            {
+              "text": "(Ooh ah, yeah I’m blooming like a)",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-001",
+          "startMs": 0,
+          "text": "백! 화! 요! 란! Inside out!",
+          "spans": [
+            {
+              "text": "백! 화! 요! 란! Inside out!",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○ ○ ○ ○ ○○○○○○ ○○○",
+              "eventId": "inside-out-chant-001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-002",
+      "startMs": 8574,
+      "sourceLineId": "lrc-002",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-002",
+          "startMs": 8574,
+          "text": "(Yeah I’m blooming like a)",
+          "spans": [
+            {
+              "text": "(Yeah I’m blooming like a)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-003",
+      "startMs": 10174,
+      "sourceLineId": "lrc-003",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-003",
+          "startMs": 10174,
+          "text": "기다려 왔던",
+          "spans": [
+            {
+              "text": "기다려 왔던",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-002",
+          "startMs": 10174,
+          "text": "너!",
+          "spans": [
+            {
+              "text": "너!",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○",
+              "eventId": "inside-out-chant-002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-004",
+      "startMs": 12174,
+      "sourceLineId": "lrc-004",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-004",
+          "startMs": 12174,
+          "text": "문을 연 순간",
+          "spans": [
+            {
+              "text": "문을 연 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-005",
+      "startMs": 15173,
+      "sourceLineId": "lrc-005",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-005",
+          "startMs": 15173,
+          "text": "눈부셔 꿈꾸던 그 아인",
+          "spans": [
+            {
+              "text": "눈부셔 꿈꾸던 그 아인",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-006",
+      "startMs": 18174,
+      "sourceLineId": "lrc-006",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-006",
+          "startMs": 18174,
+          "text": "(Umm umm)",
+          "spans": [
+            {
+              "text": "(Umm umm)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-007",
+      "startMs": 19174,
+      "sourceLineId": "lrc-007",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-007",
+          "startMs": 19174,
+          "text": "Yeah 가득 피어나",
+          "spans": [
+            {
+              "text": "Yeah 가득 피어나",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-inside-out-chant-003",
+      "startMs": 21574,
+      "sourceLineId": "lrc-008",
+      "rows": [
+        {
+          "id": "inside-out-row-inside-out-chant-003",
+          "startMs": 21574,
+          "text": "나!",
+          "spans": [
+            {
+              "text": "나!",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○",
+              "eventId": "inside-out-chant-003"
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-lrc-008",
+          "startMs": 21574,
+          "text": "Ey 시작된 delight",
+          "spans": [
+            {
+              "text": "Ey 시작된 delight",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-009",
+      "startMs": 24174,
+      "sourceLineId": "lrc-009",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-009",
+          "startMs": 24174,
+          "text": "이 설명할 수 없는 emotion",
+          "spans": [
+            {
+              "text": "이 설명할 수 없는 emotion",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-010",
+      "startMs": 28174,
+      "sourceLineId": "lrc-010",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-010",
+          "startMs": 28174,
+          "text": "Uh yeah",
+          "spans": [
+            {
+              "text": "Uh yeah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-011",
+      "startMs": 29574,
+      "sourceLineId": "lrc-011",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-011",
+          "startMs": 29574,
+          "text": "의심 따윈 사라져",
+          "spans": [
+            {
+              "text": "의심 따윈 사라져",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-012",
+      "startMs": 32174,
+      "sourceLineId": "lrc-012",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-012",
+          "startMs": 32174,
+          "text": "한발 더 내디뎌",
+          "spans": [
+            {
+              "text": "한발 더 내디뎌",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-013",
+      "startMs": 33774,
+      "sourceLineId": "lrc-013",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-013",
+          "startMs": 33774,
+          "text": "한겨울에 핀 꽃처럼",
+          "spans": [
+            {
+              "text": "한겨울에 핀 ",
+              "chant": false
+            },
+            {
+              "text": "꽃처럼",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "꽃처럼",
+              "eventId": "inside-out-chant-004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-014",
+      "startMs": 36174,
+      "sourceLineId": "lrc-014",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-014",
+          "startMs": 36174,
+          "text": "두 눈 뗄 수 없게 눈부셔 yeah",
+          "spans": [
+            {
+              "text": "두 눈 뗄 수 없게 ",
+              "chant": false
+            },
+            {
+              "text": "눈부셔",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "눈부셔",
+              "eventId": "inside-out-chant-005"
+            },
+            {
+              "text": " yeah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-015",
+      "startMs": 39774,
+      "sourceLineId": "lrc-015",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-015",
+          "startMs": 39774,
+          "text": "만개할 날 지켜봐",
+          "spans": [
+            {
+              "text": "만개할 날 지켜봐",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-016",
+      "startMs": 42174,
+      "sourceLineId": "lrc-016",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-016",
+          "startMs": 42174,
+          "text": "더 활짝 피어나",
+          "spans": [
+            {
+              "text": "더 활짝 피어나",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-017",
+      "startMs": 43774,
+      "sourceLineId": "lrc-017",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-017",
+          "startMs": 43774,
+          "text": "찬란함에 빠져들지 Do you?",
+          "spans": [
+            {
+              "text": "찬란함에 빠져들지 ",
+              "chant": false
+            },
+            {
+              "text": "Do you",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Do you",
+              "eventId": "inside-out-chant-006"
+            },
+            {
+              "text": "?",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-018",
+      "startMs": 46774,
+      "sourceLineId": "lrc-018",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-018",
+          "startMs": 46774,
+          "text": "이대로 좋아",
+          "spans": [
+            {
+              "text": "이대로 좋아",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-019",
+      "startMs": 48774,
+      "sourceLineId": "lrc-019",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-019",
+          "startMs": 48774,
+          "text": "Yeah I’m blooming like a",
+          "spans": [
+            {
+              "text": "Yeah I’m blooming like a",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-020",
+      "startMs": 49774,
+      "sourceLineId": "lrc-020",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-020",
+          "startMs": 49774,
+          "text": "flower, flower, yeah",
+          "spans": [
+            {
+              "text": "flower, flower",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "flower, flower",
+              "eventId": "inside-out-chant-007"
+            },
+            {
+              "text": ", yeah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-021",
+      "startMs": 52174,
+      "sourceLineId": "lrc-021",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-021",
+          "startMs": 52174,
+          "text": "지금 이대로",
+          "spans": [
+            {
+              "text": "지금 이대로",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-022",
+      "startMs": 53774,
+      "sourceLineId": "lrc-022",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-022",
+          "startMs": 53774,
+          "text": "피어올라",
+          "spans": [
+            {
+              "text": "피어올라",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-023",
+      "startMs": 55774,
+      "sourceLineId": "lrc-023",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-023",
+          "startMs": 55774,
+          "text": "Higher, higher",
+          "spans": [
+            {
+              "text": "Higher, higher",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Higher, higher",
+              "eventId": "inside-out-chant-008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-024",
+      "startMs": 56374,
+      "sourceLineId": "lrc-024",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-024",
+          "startMs": 56374,
+          "text": "끝도 없이 (끝없이)",
+          "spans": [
+            {
+              "text": "끝도 없이 (끝없이)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-025",
+      "startMs": 58774,
+      "sourceLineId": "lrc-025",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-025",
+          "startMs": 58774,
+          "text": "여긴 온통 Oh my oh my",
+          "spans": [
+            {
+              "text": "여긴 온통 Oh my oh my",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-009",
+          "startMs": 58774,
+          "text": "oh my",
+          "spans": [
+            {
+              "text": "oh my",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○ ○○",
+              "eventId": "inside-out-chant-009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-026",
+      "startMs": 61774,
+      "sourceLineId": "lrc-026",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-026",
+          "startMs": 61774,
+          "text": "온 세상을 나로 채운 time",
+          "spans": [
+            {
+              "text": "온 세상을 나로 채운 time",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-027",
+      "startMs": 64374,
+      "sourceLineId": "lrc-027",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-027",
+          "startMs": 64374,
+          "text": "아득히 더 물들여 Inside out",
+          "spans": [
+            {
+              "text": "아득히 더 물들여 ",
+              "chant": false
+            },
+            {
+              "text": "Inside out",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Inside out",
+              "eventId": "inside-out-chant-010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-028",
+      "startMs": 69374,
+      "sourceLineId": "lrc-028",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-028",
+          "startMs": 69374,
+          "text": "피어 more more",
+          "spans": [
+            {
+              "text": "피어 more more",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-029",
+      "startMs": 70774,
+      "sourceLineId": "lrc-029",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-029",
+          "startMs": 70774,
+          "text": "번져 더 더",
+          "spans": [
+            {
+              "text": "번져 ",
+              "chant": false
+            },
+            {
+              "text": "더 더",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "더 더",
+              "eventId": "inside-out-chant-011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-030",
+      "startMs": 71774,
+      "sourceLineId": "lrc-030",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-030",
+          "startMs": 71774,
+          "text": "꿈꿔왔던 순간",
+          "spans": [
+            {
+              "text": "꿈꿔왔던 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-031",
+      "startMs": 74374,
+      "sourceLineId": "lrc-031",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-031",
+          "startMs": 74374,
+          "text": "어딜 봐도 밝게 빛나 (From the)",
+          "spans": [
+            {
+              "text": "어딜 봐도 밝게 빛나 (From the)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-032",
+      "startMs": 76774,
+      "sourceLineId": "lrc-032",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-032",
+          "startMs": 76774,
+          "text": "From inside out",
+          "spans": [
+            {
+              "text": "From inside out",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-033",
+      "startMs": 79774,
+      "sourceLineId": "lrc-033",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-033",
+          "startMs": 79774,
+          "text": "피어 bloom bloom",
+          "spans": [
+            {
+              "text": "피어 bloom bloom",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-034",
+      "startMs": 80774,
+      "sourceLineId": "lrc-034",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-034",
+          "startMs": 80774,
+          "text": "번져 더 더",
+          "spans": [
+            {
+              "text": "번져 ",
+              "chant": false
+            },
+            {
+              "text": "더 더",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "더 더",
+              "eventId": "inside-out-chant-012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-035",
+      "startMs": 81774,
+      "sourceLineId": "lrc-035",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-035",
+          "startMs": 81774,
+          "text": "아주 화려히",
+          "spans": [
+            {
+              "text": "아주 화려히",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-036",
+      "startMs": 84374,
+      "sourceLineId": "lrc-036",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-036",
+          "startMs": 84374,
+          "text": "쏟아질 듯 가득해 난",
+          "spans": [
+            {
+              "text": "쏟아질 듯 가득해 난",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-037",
+      "startMs": 86974,
+      "sourceLineId": "lrc-037",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-037",
+          "startMs": 86974,
+          "text": "From the inside out (Yeah yeah)",
+          "spans": [
+            {
+              "text": "From the inside out (",
+              "chant": false
+            },
+            {
+              "text": "Yeah yeah",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Yeah yeah",
+              "eventId": "inside-out-chant-013"
+            },
+            {
+              "text": ")",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-038",
+      "startMs": 89374,
+      "sourceLineId": "lrc-038",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-038",
+          "startMs": 89374,
+          "text": "막 피어나던 어린 날을 기억해",
+          "spans": [
+            {
+              "text": "막 피어나던 어린 날을 기억해",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-039",
+      "startMs": 91974,
+      "sourceLineId": "lrc-039",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-039",
+          "startMs": 91974,
+          "text": "벅차오른 맘은 식지 않고 on my way",
+          "spans": [
+            {
+              "text": "벅차오른 맘은 식지 않고 on my way",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-040",
+      "startMs": 94374,
+      "sourceLineId": "lrc-040",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-040",
+          "startMs": 94374,
+          "text": "Saying Oh la la (Oh la la)",
+          "spans": [
+            {
+              "text": "Saying ",
+              "chant": false
+            },
+            {
+              "text": "Oh la la",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Oh la la",
+              "eventId": "inside-out-chant-014"
+            },
+            {
+              "text": " (Oh la la)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-041",
+      "startMs": 95374,
+      "sourceLineId": "lrc-041",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-041",
+          "startMs": 95374,
+          "text": "기꺼이 Fall in love (Fall in love)",
+          "spans": [
+            {
+              "text": "기꺼이 ",
+              "chant": false
+            },
+            {
+              "text": "Fall in love",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Fall in love",
+              "eventId": "inside-out-chant-015"
+            },
+            {
+              "text": " (Fall in love)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-042",
+      "startMs": 96974,
+      "sourceLineId": "lrc-042",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-042",
+          "startMs": 96974,
+          "text": "완전히 완전히",
+          "spans": [
+            {
+              "text": "완전히 완전히",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-043",
+      "startMs": 97974,
+      "sourceLineId": "lrc-043",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-043",
+          "startMs": 97974,
+          "text": "빠져들고 있어",
+          "spans": [
+            {
+              "text": "빠져들고 있어",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-044",
+      "startMs": 99374,
+      "sourceLineId": "lrc-044",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-044",
+          "startMs": 99374,
+          "text": "이게 현실인지 환상인 건지",
+          "spans": [
+            {
+              "text": "이게 현실인지 환상인 건지",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-045",
+      "startMs": 101974,
+      "sourceLineId": "lrc-045",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-045",
+          "startMs": 101974,
+          "text": "이제 더는 구분 안 할래",
+          "spans": [
+            {
+              "text": "이제 더는 구분 안 할래",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-046",
+      "startMs": 104574,
+      "sourceLineId": "lrc-046",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-046",
+          "startMs": 104574,
+          "text": "한없이 꿈꿔온 나를 위한 계절을 Umm",
+          "spans": [
+            {
+              "text": "한없이 꿈꿔온 나를 위한 계절을 Umm",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-016",
+          "startMs": 104574,
+          "text": "보여줘",
+          "spans": [
+            {
+              "text": "보여줘",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○○",
+              "eventId": "inside-out-chant-016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-047",
+      "startMs": 109574,
+      "sourceLineId": "lrc-047",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-047",
+          "startMs": 109574,
+          "text": "마침내 가득한 향",
+          "spans": [
+            {
+              "text": "마침내 가득한 향",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-048",
+      "startMs": 111974,
+      "sourceLineId": "lrc-048",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-048",
+          "startMs": 111974,
+          "text": "더 멀리 번져가",
+          "spans": [
+            {
+              "text": "더 멀리 번져가",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-049",
+      "startMs": 113974,
+      "sourceLineId": "lrc-049",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-049",
+          "startMs": 113974,
+          "text": "그토록 바라던 순간",
+          "spans": [
+            {
+              "text": "그토록 바라던 ",
+              "chant": false
+            },
+            {
+              "text": "순간",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "순간",
+              "eventId": "inside-out-chant-017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-050",
+      "startMs": 116574,
+      "sourceLineId": "lrc-050",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-050",
+          "startMs": 116574,
+          "text": "온 세상을 물들인 my scent (물들인 my scent)",
+          "spans": [
+            {
+              "text": "온 세상을 물들인 ",
+              "chant": false
+            },
+            {
+              "text": "my scent",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "my scent",
+              "eventId": "inside-out-chant-018"
+            },
+            {
+              "text": " (물들인 my scent)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-051",
+      "startMs": 119574,
+      "sourceLineId": "lrc-051",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-051",
+          "startMs": 119574,
+          "text": "만개한 날 지켜봐",
+          "spans": [
+            {
+              "text": "만개한 날 지켜봐",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-052",
+      "startMs": 121974,
+      "sourceLineId": "lrc-052",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-052",
+          "startMs": 121974,
+          "text": "더 활짝 피어나",
+          "spans": [
+            {
+              "text": "더 활짝 피어나",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-053",
+      "startMs": 123974,
+      "sourceLineId": "lrc-053",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-053",
+          "startMs": 123974,
+          "text": "찬란함에 빠져들지 Do you?",
+          "spans": [
+            {
+              "text": "찬란함에 빠져들지 ",
+              "chant": false
+            },
+            {
+              "text": "Do you",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Do you",
+              "eventId": "inside-out-chant-019"
+            },
+            {
+              "text": "?",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-054",
+      "startMs": 126974,
+      "sourceLineId": "lrc-054",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-054",
+          "startMs": 126974,
+          "text": "이대로 좋아",
+          "spans": [
+            {
+              "text": "이대로 좋아",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-055",
+      "startMs": 128574,
+      "sourceLineId": "lrc-055",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-055",
+          "startMs": 128574,
+          "text": "Yeah I’m blooming like a",
+          "spans": [
+            {
+              "text": "Yeah I’m blooming like a",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-056",
+      "startMs": 130574,
+      "sourceLineId": "lrc-056",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-056",
+          "startMs": 130574,
+          "text": "flower, flower, yeah",
+          "spans": [
+            {
+              "text": "flower, flower",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "flower, flower",
+              "eventId": "inside-out-chant-020"
+            },
+            {
+              "text": ", yeah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-057",
+      "startMs": 131974,
+      "sourceLineId": "lrc-057",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-057",
+          "startMs": 131974,
+          "text": "지금 이대로",
+          "spans": [
+            {
+              "text": "지금 이대로",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-058",
+      "startMs": 133974,
+      "sourceLineId": "lrc-058",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-058",
+          "startMs": 133974,
+          "text": "피어올라",
+          "spans": [
+            {
+              "text": "피어올라",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-059",
+      "startMs": 135574,
+      "sourceLineId": "lrc-059",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-059",
+          "startMs": 135574,
+          "text": "higher, higher",
+          "spans": [
+            {
+              "text": "higher, higher",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "higher, higher",
+              "eventId": "inside-out-chant-021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-060",
+      "startMs": 135974,
+      "sourceLineId": "lrc-060",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-060",
+          "startMs": 135974,
+          "text": "끝도 없이",
+          "spans": [
+            {
+              "text": "끝도 없이",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-061",
+      "startMs": 138574,
+      "sourceLineId": "lrc-061",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-061",
+          "startMs": 138574,
+          "text": "여긴 온통 Oh my oh my",
+          "spans": [
+            {
+              "text": "여긴 온통 Oh my oh my",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-022",
+          "startMs": 138574,
+          "text": "oh my",
+          "spans": [
+            {
+              "text": "oh my",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○ ○○",
+              "eventId": "inside-out-chant-022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-062",
+      "startMs": 141574,
+      "sourceLineId": "lrc-062",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-062",
+          "startMs": 141574,
+          "text": "온 세상을 나로 채운 time",
+          "spans": [
+            {
+              "text": "온 세상을 나로 채운 time",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-063",
+      "startMs": 144574,
+      "sourceLineId": "lrc-063",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-063",
+          "startMs": 144574,
+          "text": "아득히 더 물들여 Inside out",
+          "spans": [
+            {
+              "text": "아득히 더 물들여 ",
+              "chant": false
+            },
+            {
+              "text": "Inside out",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Inside out",
+              "eventId": "inside-out-chant-023"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-064",
+      "startMs": 149174,
+      "sourceLineId": "lrc-064",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-064",
+          "startMs": 149174,
+          "text": "Feels like a sweet dream",
+          "spans": [
+            {
+              "text": "Feels like a sweet dream",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-065",
+      "startMs": 151574,
+      "sourceLineId": "lrc-065",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-065",
+          "startMs": 151574,
+          "text": "볼을 꼬집은 순간",
+          "spans": [
+            {
+              "text": "볼을 꼬집은 순간",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-066",
+      "startMs": 154174,
+      "sourceLineId": "lrc-066",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-066",
+          "startMs": 154174,
+          "text": "선명한 Heaven",
+          "spans": [
+            {
+              "text": "선명한 Heaven",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-067",
+      "startMs": 156174,
+      "sourceLineId": "lrc-067",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-067",
+          "startMs": 156174,
+          "text": "짙어지는 Scent",
+          "spans": [
+            {
+              "text": "짙어지는 Scent",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-068",
+      "startMs": 159174,
+      "sourceLineId": "lrc-068",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-068",
+          "startMs": 159174,
+          "text": "어지러이",
+          "spans": [
+            {
+              "text": "어지러",
+              "chant": false
+            },
+            {
+              "text": "이",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○",
+              "eventId": "document-inside-out-row-lrc-068-span-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-069",
+      "startMs": 160174,
+      "sourceLineId": "lrc-069",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-069",
+          "startMs": 160174,
+          "text": "빛나는 me",
+          "spans": [
+            {
+              "text": "빛나는 ",
+              "chant": false
+            },
+            {
+              "text": "me",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "me",
+              "eventId": "inside-out-chant-024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-070",
+      "startMs": 161574,
+      "sourceLineId": "lrc-070",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-070",
+          "startMs": 161574,
+          "text": "황홀한 here, right now",
+          "spans": [
+            {
+              "text": "황홀한 here, ",
+              "chant": false
+            },
+            {
+              "text": "right now",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "right now",
+              "eventId": "inside-out-chant-025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-071",
+      "startMs": 164174,
+      "sourceLineId": "lrc-071",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-071",
+          "startMs": 164174,
+          "text": "이대로, 대로, 대로",
+          "spans": [
+            {
+              "text": "이대로, 대로, 대로",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-072",
+      "startMs": 166574,
+      "sourceLineId": "lrc-072",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-072",
+          "startMs": 166574,
+          "text": "from the inside out",
+          "spans": [
+            {
+              "text": "from the inside out",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-073",
+      "startMs": 168574,
+      "sourceLineId": "lrc-073",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-073",
+          "startMs": 168574,
+          "text": "Yeah I’m blooming like a",
+          "spans": [
+            {
+              "text": "Yeah I’m blooming like a",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-074",
+      "startMs": 170174,
+      "sourceLineId": "lrc-074",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-074",
+          "startMs": 170174,
+          "text": "flower, flower, yeah",
+          "spans": [
+            {
+              "text": "flower, flower",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "flower, flower",
+              "eventId": "inside-out-chant-026"
+            },
+            {
+              "text": ", yeah",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-075",
+      "startMs": 172174,
+      "sourceLineId": "lrc-075",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-075",
+          "startMs": 172174,
+          "text": "지금 이대로",
+          "spans": [
+            {
+              "text": "지금 이대로",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-076",
+      "startMs": 174174,
+      "sourceLineId": "lrc-076",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-076",
+          "startMs": 174174,
+          "text": "피어올라",
+          "spans": [
+            {
+              "text": "피어올라",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-077",
+      "startMs": 175174,
+      "sourceLineId": "lrc-077",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-077",
+          "startMs": 175174,
+          "text": "higher, higher",
+          "spans": [
+            {
+              "text": "higher, higher",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "higher, higher",
+              "eventId": "inside-out-chant-027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-078",
+      "startMs": 176174,
+      "sourceLineId": "lrc-078",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-078",
+          "startMs": 176174,
+          "text": "끝도 없이",
+          "spans": [
+            {
+              "text": "끝도 없이",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-079",
+      "startMs": 179174,
+      "sourceLineId": "lrc-079",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-079",
+          "startMs": 179174,
+          "text": "여긴 온통 Oh my oh my",
+          "spans": [
+            {
+              "text": "여긴 온통 Oh my oh my",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-080",
+      "startMs": 181174,
+      "sourceLineId": "lrc-080",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-080",
+          "startMs": 181174,
+          "text": "온 세상을 나로 채운 time",
+          "spans": [
+            {
+              "text": "온 세상을 나로 채운 time",
+              "chant": false
+            }
+          ]
+        },
+        {
+          "id": "inside-out-row-inside-out-chant-028",
+          "startMs": 181174,
+          "text": "oh my",
+          "spans": [
+            {
+              "text": "oh my",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○ ○○",
+              "eventId": "inside-out-chant-028"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-081",
+      "startMs": 184774,
+      "sourceLineId": "lrc-081",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-081",
+          "startMs": 184774,
+          "text": "아득히 더 물들여 Inside out",
+          "spans": [
+            {
+              "text": "아득히 더 물들여 ",
+              "chant": false
+            },
+            {
+              "text": "Inside out",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "Inside out",
+              "eventId": "inside-out-chant-029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-082",
+      "startMs": 189774,
+      "sourceLineId": "lrc-082",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-082",
+          "startMs": 189774,
+          "text": "피어 more more",
+          "spans": [
+            {
+              "text": "피어 more more",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-083",
+      "startMs": 190774,
+      "sourceLineId": "lrc-083",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-083",
+          "startMs": 190774,
+          "text": "번져 더 더 (la la la)",
+          "spans": [
+            {
+              "text": "번져 ",
+              "chant": false
+            },
+            {
+              "text": "더 더",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "더 더",
+              "eventId": "inside-out-chant-030"
+            },
+            {
+              "text": " (la la la)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-084",
+      "startMs": 192174,
+      "sourceLineId": "lrc-084",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-084",
+          "startMs": 192174,
+          "text": "꿈꿔왔던 순간 (꿈꿔왔던 난)",
+          "spans": [
+            {
+              "text": "꿈꿔왔던 순간 (꿈꿔왔던 난)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-085",
+      "startMs": 194774,
+      "sourceLineId": "lrc-085",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-085",
+          "startMs": 194774,
+          "text": "어딜 봐도 밝게 빛나 (From the)",
+          "spans": [
+            {
+              "text": "어딜 봐도 밝게 빛나 (From the)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-086",
+      "startMs": 196774,
+      "sourceLineId": "lrc-086",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-086",
+          "startMs": 196774,
+          "text": "from inside out (whoo whoo whoo whoo)",
+          "spans": [
+            {
+              "text": "from inside out (whoo whoo whoo whoo)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-087",
+      "startMs": 199774,
+      "sourceLineId": "lrc-087",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-087",
+          "startMs": 199774,
+          "text": "피어 bloom bloom",
+          "spans": [
+            {
+              "text": "피어 bloom bloom",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-088",
+      "startMs": 200774,
+      "sourceLineId": "lrc-088",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-088",
+          "startMs": 200774,
+          "text": "번져 더 더",
+          "spans": [
+            {
+              "text": "번져 ",
+              "chant": false
+            },
+            {
+              "text": "더 더",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "더 더",
+              "eventId": "inside-out-chant-031"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-089",
+      "startMs": 201774,
+      "sourceLineId": "lrc-089",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-089",
+          "startMs": 201774,
+          "text": "아주 화려히 (whoo)",
+          "spans": [
+            {
+              "text": "아주 화려히 (whoo)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-090",
+      "startMs": 204774,
+      "sourceLineId": "lrc-090",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-090",
+          "startMs": 204774,
+          "text": "쏟아질 듯 가득해 난 (가득해 난)",
+          "spans": [
+            {
+              "text": "쏟아질 듯 가득해 난 (가득해 난)",
+              "chant": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside-out-row-lrc-091",
+      "startMs": 206774,
+      "sourceLineId": "lrc-091",
+      "rows": [
+        {
+          "id": "inside-out-row-lrc-091",
+          "startMs": 206774,
+          "text": "from the inside out (함성)",
+          "spans": [
+            {
+              "text": "from the ",
+              "chant": false
+            },
+            {
+              "text": "inside out",
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": "inside out",
+              "eventId": "inside-out-chant-032"
+            },
+            {
+              "text": " (함성)",
+              "chant": true,
+              "hintKind": "extra",
+              "hintDisplay": "○○",
+              "eventId": "inside-out-chant-033"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "lrc-001",
+      "index": 0,
+      "startMs": 0,
+      "endMs": 8573,
+      "lyric": "(Ooh ah, yeah I’m blooming like a)"
+    },
+    {
+      "id": "lrc-002",
+      "index": 1,
+      "startMs": 8574,
+      "endMs": 10173,
+      "lyric": "(Yeah I’m blooming like a)"
+    },
+    {
+      "id": "lrc-003",
+      "index": 2,
+      "startMs": 10174,
+      "endMs": 12173,
+      "lyric": "기다려 왔던"
+    },
+    {
+      "id": "lrc-004",
+      "index": 3,
+      "startMs": 12174,
+      "endMs": 15172,
+      "lyric": "문을 연 순간"
+    },
+    {
+      "id": "lrc-005",
+      "index": 4,
+      "startMs": 15173,
+      "endMs": 18173,
+      "lyric": "눈부셔 꿈꾸던 그 아인"
+    },
+    {
+      "id": "lrc-006",
+      "index": 5,
+      "startMs": 18174,
+      "endMs": 19173,
+      "lyric": "(Umm umm)"
+    },
+    {
+      "id": "lrc-007",
+      "index": 6,
+      "startMs": 19174,
+      "endMs": 21573,
+      "lyric": "Yeah 가득 피어나"
+    },
+    {
+      "id": "lrc-008",
+      "index": 7,
+      "startMs": 21574,
+      "endMs": 24173,
+      "lyric": "Ey 시작된 delight"
+    },
+    {
+      "id": "lrc-009",
+      "index": 8,
+      "startMs": 24174,
+      "endMs": 28173,
+      "lyric": "이 설명할 수 없는 emotion"
+    },
+    {
+      "id": "lrc-010",
+      "index": 9,
+      "startMs": 28174,
+      "endMs": 29573,
+      "lyric": "Uh yeah"
+    },
+    {
+      "id": "lrc-011",
+      "index": 10,
+      "startMs": 29574,
+      "endMs": 32173,
+      "lyric": "의심 따윈 사라져"
+    },
+    {
+      "id": "lrc-012",
+      "index": 11,
+      "startMs": 32174,
+      "endMs": 33773,
+      "lyric": "한발 더 내디뎌"
+    },
+    {
+      "id": "lrc-013",
+      "index": 12,
+      "startMs": 33774,
+      "endMs": 36173,
+      "lyric": "한겨울에 핀 꽃처럼"
+    },
+    {
+      "id": "lrc-014",
+      "index": 13,
+      "startMs": 36174,
+      "endMs": 39773,
+      "lyric": "두 눈 뗄 수 없게 눈부셔 yeah"
+    },
+    {
+      "id": "lrc-015",
+      "index": 14,
+      "startMs": 39774,
+      "endMs": 42173,
+      "lyric": "만개할 날 지켜봐"
+    },
+    {
+      "id": "lrc-016",
+      "index": 15,
+      "startMs": 42174,
+      "endMs": 43773,
+      "lyric": "더 활짝 피어나"
+    },
+    {
+      "id": "lrc-017",
+      "index": 16,
+      "startMs": 43774,
+      "endMs": 46773,
+      "lyric": "찬란함에 빠져들지 Do you?"
+    },
+    {
+      "id": "lrc-018",
+      "index": 17,
+      "startMs": 46774,
+      "endMs": 48773,
+      "lyric": "이대로 좋아"
+    },
+    {
+      "id": "lrc-019",
+      "index": 18,
+      "startMs": 48774,
+      "endMs": 49773,
+      "lyric": "Yeah I’m blooming like a"
+    },
+    {
+      "id": "lrc-020",
+      "index": 19,
+      "startMs": 49774,
+      "endMs": 52173,
+      "lyric": "flower, flower, yeah"
+    },
+    {
+      "id": "lrc-021",
+      "index": 20,
+      "startMs": 52174,
+      "endMs": 53773,
+      "lyric": "지금 이대로"
+    },
+    {
+      "id": "lrc-022",
+      "index": 21,
+      "startMs": 53774,
+      "endMs": 55773,
+      "lyric": "피어올라"
+    },
+    {
+      "id": "lrc-023",
+      "index": 22,
+      "startMs": 55774,
+      "endMs": 56373,
+      "lyric": "Higher, higher"
+    },
+    {
+      "id": "lrc-024",
+      "index": 23,
+      "startMs": 56374,
+      "endMs": 58773,
+      "lyric": "끝도 없이 (끝없이)"
+    },
+    {
+      "id": "lrc-025",
+      "index": 24,
+      "startMs": 58774,
+      "endMs": 61773,
+      "lyric": "여긴 온통 Oh my oh my"
+    },
+    {
+      "id": "lrc-026",
+      "index": 25,
+      "startMs": 61774,
+      "endMs": 64373,
+      "lyric": "온 세상을 나로 채운 time"
+    },
+    {
+      "id": "lrc-027",
+      "index": 26,
+      "startMs": 64374,
+      "endMs": 69373,
+      "lyric": "아득히 더 물들여 Inside out"
+    },
+    {
+      "id": "lrc-028",
+      "index": 27,
+      "startMs": 69374,
+      "endMs": 70773,
+      "lyric": "피어 more more"
+    },
+    {
+      "id": "lrc-029",
+      "index": 28,
+      "startMs": 70774,
+      "endMs": 71773,
+      "lyric": "번져 더 더"
+    },
+    {
+      "id": "lrc-030",
+      "index": 29,
+      "startMs": 71774,
+      "endMs": 74373,
+      "lyric": "꿈꿔왔던 순간"
+    },
+    {
+      "id": "lrc-031",
+      "index": 30,
+      "startMs": 74374,
+      "endMs": 76773,
+      "lyric": "어딜 봐도 밝게 빛나 (From the)"
+    },
+    {
+      "id": "lrc-032",
+      "index": 31,
+      "startMs": 76774,
+      "endMs": 79773,
+      "lyric": "From inside out"
+    },
+    {
+      "id": "lrc-033",
+      "index": 32,
+      "startMs": 79774,
+      "endMs": 80773,
+      "lyric": "피어 bloom bloom"
+    },
+    {
+      "id": "lrc-034",
+      "index": 33,
+      "startMs": 80774,
+      "endMs": 81773,
+      "lyric": "번져 더 더"
+    },
+    {
+      "id": "lrc-035",
+      "index": 34,
+      "startMs": 81774,
+      "endMs": 84373,
+      "lyric": "아주 화려히"
+    },
+    {
+      "id": "lrc-036",
+      "index": 35,
+      "startMs": 84374,
+      "endMs": 86973,
+      "lyric": "쏟아질 듯 가득해 난"
+    },
+    {
+      "id": "lrc-037",
+      "index": 36,
+      "startMs": 86974,
+      "endMs": 89373,
+      "lyric": "From the inside out (Yeah yeah)"
+    },
+    {
+      "id": "lrc-038",
+      "index": 37,
+      "startMs": 89374,
+      "endMs": 91973,
+      "lyric": "막 피어나던 어린 날을 기억해"
+    },
+    {
+      "id": "lrc-039",
+      "index": 38,
+      "startMs": 91974,
+      "endMs": 94373,
+      "lyric": "벅차오른 맘은 식지 않고 on my way"
+    },
+    {
+      "id": "lrc-040",
+      "index": 39,
+      "startMs": 94374,
+      "endMs": 95373,
+      "lyric": "Saying Oh la la (Oh la la)"
+    },
+    {
+      "id": "lrc-041",
+      "index": 40,
+      "startMs": 95374,
+      "endMs": 96973,
+      "lyric": "기꺼이 Fall in love (Fall in love)"
+    },
+    {
+      "id": "lrc-042",
+      "index": 41,
+      "startMs": 96974,
+      "endMs": 97973,
+      "lyric": "완전히 완전히"
+    },
+    {
+      "id": "lrc-043",
+      "index": 42,
+      "startMs": 97974,
+      "endMs": 99373,
+      "lyric": "빠져들고 있어"
+    },
+    {
+      "id": "lrc-044",
+      "index": 43,
+      "startMs": 99374,
+      "endMs": 101973,
+      "lyric": "이게 현실인지 환상인 건지"
+    },
+    {
+      "id": "lrc-045",
+      "index": 44,
+      "startMs": 101974,
+      "endMs": 104573,
+      "lyric": "이제 더는 구분 안 할래"
+    },
+    {
+      "id": "lrc-046",
+      "index": 45,
+      "startMs": 104574,
+      "endMs": 109573,
+      "lyric": "한없이 꿈꿔온 나를 위한 계절을 Umm"
+    },
+    {
+      "id": "lrc-047",
+      "index": 46,
+      "startMs": 109574,
+      "endMs": 111973,
+      "lyric": "마침내 가득한 향"
+    },
+    {
+      "id": "lrc-048",
+      "index": 47,
+      "startMs": 111974,
+      "endMs": 113973,
+      "lyric": "더 멀리 번져가"
+    },
+    {
+      "id": "lrc-049",
+      "index": 48,
+      "startMs": 113974,
+      "endMs": 116573,
+      "lyric": "그토록 바라던 순간"
+    },
+    {
+      "id": "lrc-050",
+      "index": 49,
+      "startMs": 116574,
+      "endMs": 119573,
+      "lyric": "온 세상을 물들인 my scent (물들인 my scent)"
+    },
+    {
+      "id": "lrc-051",
+      "index": 50,
+      "startMs": 119574,
+      "endMs": 121973,
+      "lyric": "만개한 날 지켜봐"
+    },
+    {
+      "id": "lrc-052",
+      "index": 51,
+      "startMs": 121974,
+      "endMs": 123973,
+      "lyric": "더 활짝 피어나"
+    },
+    {
+      "id": "lrc-053",
+      "index": 52,
+      "startMs": 123974,
+      "endMs": 126973,
+      "lyric": "찬란함에 빠져들지 Do you?"
+    },
+    {
+      "id": "lrc-054",
+      "index": 53,
+      "startMs": 126974,
+      "endMs": 128573,
+      "lyric": "이대로 좋아"
+    },
+    {
+      "id": "lrc-055",
+      "index": 54,
+      "startMs": 128574,
+      "endMs": 130573,
+      "lyric": "Yeah I’m blooming like a"
+    },
+    {
+      "id": "lrc-056",
+      "index": 55,
+      "startMs": 130574,
+      "endMs": 131973,
+      "lyric": "flower, flower, yeah"
+    },
+    {
+      "id": "lrc-057",
+      "index": 56,
+      "startMs": 131974,
+      "endMs": 133973,
+      "lyric": "지금 이대로"
+    },
+    {
+      "id": "lrc-058",
+      "index": 57,
+      "startMs": 133974,
+      "endMs": 135573,
+      "lyric": "피어올라"
+    },
+    {
+      "id": "lrc-059",
+      "index": 58,
+      "startMs": 135574,
+      "endMs": 135973,
+      "lyric": "higher, higher"
+    },
+    {
+      "id": "lrc-060",
+      "index": 59,
+      "startMs": 135974,
+      "endMs": 138573,
+      "lyric": "끝도 없이"
+    },
+    {
+      "id": "lrc-061",
+      "index": 60,
+      "startMs": 138574,
+      "endMs": 141573,
+      "lyric": "여긴 온통 Oh my oh my"
+    },
+    {
+      "id": "lrc-062",
+      "index": 61,
+      "startMs": 141574,
+      "endMs": 144573,
+      "lyric": "온 세상을 나로 채운 time"
+    },
+    {
+      "id": "lrc-063",
+      "index": 62,
+      "startMs": 144574,
+      "endMs": 149173,
+      "lyric": "아득히 더 물들여 Inside out"
+    },
+    {
+      "id": "lrc-064",
+      "index": 63,
+      "startMs": 149174,
+      "endMs": 151573,
+      "lyric": "Feels like a sweet dream"
+    },
+    {
+      "id": "lrc-065",
+      "index": 64,
+      "startMs": 151574,
+      "endMs": 154173,
+      "lyric": "볼을 꼬집은 순간"
+    },
+    {
+      "id": "lrc-066",
+      "index": 65,
+      "startMs": 154174,
+      "endMs": 156173,
+      "lyric": "선명한 Heaven"
+    },
+    {
+      "id": "lrc-067",
+      "index": 66,
+      "startMs": 156174,
+      "endMs": 159173,
+      "lyric": "짙어지는 Scent"
+    },
+    {
+      "id": "lrc-068",
+      "index": 67,
+      "startMs": 159174,
+      "endMs": 160173,
+      "lyric": "어지러이"
+    },
+    {
+      "id": "lrc-069",
+      "index": 68,
+      "startMs": 160174,
+      "endMs": 161573,
+      "lyric": "빛나는 me"
+    },
+    {
+      "id": "lrc-070",
+      "index": 69,
+      "startMs": 161574,
+      "endMs": 164173,
+      "lyric": "황홀한 here, right now"
+    },
+    {
+      "id": "lrc-071",
+      "index": 70,
+      "startMs": 164174,
+      "endMs": 166573,
+      "lyric": "이대로, 대로, 대로"
+    },
+    {
+      "id": "lrc-072",
+      "index": 71,
+      "startMs": 166574,
+      "endMs": 168573,
+      "lyric": "from the inside out"
+    },
+    {
+      "id": "lrc-073",
+      "index": 72,
+      "startMs": 168574,
+      "endMs": 170173,
+      "lyric": "Yeah I’m blooming like a"
+    },
+    {
+      "id": "lrc-074",
+      "index": 73,
+      "startMs": 170174,
+      "endMs": 172173,
+      "lyric": "flower, flower, yeah"
+    },
+    {
+      "id": "lrc-075",
+      "index": 74,
+      "startMs": 172174,
+      "endMs": 174173,
+      "lyric": "지금 이대로"
+    },
+    {
+      "id": "lrc-076",
+      "index": 75,
+      "startMs": 174174,
+      "endMs": 175173,
+      "lyric": "피어올라"
+    },
+    {
+      "id": "lrc-077",
+      "index": 76,
+      "startMs": 175174,
+      "endMs": 176173,
+      "lyric": "higher, higher"
+    },
+    {
+      "id": "lrc-078",
+      "index": 77,
+      "startMs": 176174,
+      "endMs": 179173,
+      "lyric": "끝도 없이"
+    },
+    {
+      "id": "lrc-079",
+      "index": 78,
+      "startMs": 179174,
+      "endMs": 181173,
+      "lyric": "여긴 온통 Oh my oh my"
+    },
+    {
+      "id": "lrc-080",
+      "index": 79,
+      "startMs": 181174,
+      "endMs": 184773,
+      "lyric": "온 세상을 나로 채운 time"
+    },
+    {
+      "id": "lrc-081",
+      "index": 80,
+      "startMs": 184774,
+      "endMs": 189773,
+      "lyric": "아득히 더 물들여 Inside out"
+    },
+    {
+      "id": "lrc-082",
+      "index": 81,
+      "startMs": 189774,
+      "endMs": 190773,
+      "lyric": "피어 more more"
+    },
+    {
+      "id": "lrc-083",
+      "index": 82,
+      "startMs": 190774,
+      "endMs": 192173,
+      "lyric": "번져 더 더 (la la la)"
+    },
+    {
+      "id": "lrc-084",
+      "index": 83,
+      "startMs": 192174,
+      "endMs": 194773,
+      "lyric": "꿈꿔왔던 순간 (꿈꿔왔던 난)"
+    },
+    {
+      "id": "lrc-085",
+      "index": 84,
+      "startMs": 194774,
+      "endMs": 196773,
+      "lyric": "어딜 봐도 밝게 빛나 (From the)"
+    },
+    {
+      "id": "lrc-086",
+      "index": 85,
+      "startMs": 196774,
+      "endMs": 199773,
+      "lyric": "from inside out (whoo whoo whoo whoo)"
+    },
+    {
+      "id": "lrc-087",
+      "index": 86,
+      "startMs": 199774,
+      "endMs": 200773,
+      "lyric": "피어 bloom bloom"
+    },
+    {
+      "id": "lrc-088",
+      "index": 87,
+      "startMs": 200774,
+      "endMs": 201773,
+      "lyric": "번져 더 더"
+    },
+    {
+      "id": "lrc-089",
+      "index": 88,
+      "startMs": 201774,
+      "endMs": 204773,
+      "lyric": "아주 화려히 (whoo)"
+    },
+    {
+      "id": "lrc-090",
+      "index": 89,
+      "startMs": 204774,
+      "endMs": 206773,
+      "lyric": "쏟아질 듯 가득해 난 (가득해 난)"
+    },
+    {
+      "id": "lrc-091",
+      "index": 90,
+      "startMs": 206774,
+      "endMs": 213028,
+      "lyric": "from the inside out"
+    }
+  ]
+}
