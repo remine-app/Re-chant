@@ -151,7 +151,7 @@
       "type": "between-lyrics",
       "nextLyricLineId": "lrc-040",
       "hintKind": "original",
-      "hintDisplay": "Oh la la"
+      "hintDisplay": " (Oh la la)"
     },
     {
       "id": "inside-out-chant-015",
@@ -161,7 +161,7 @@
       "type": "between-lyrics",
       "nextLyricLineId": "lrc-041",
       "hintKind": "original",
-      "hintDisplay": "Fall in love"
+      "hintDisplay": " (Fall in love)"
     },
     {
       "id": "inside-out-chant-016",
@@ -1200,14 +1200,15 @@
             },
             {
               "text": "Oh la la",
-              "chant": true,
-              "hintKind": "original",
-              "hintDisplay": "Oh la la",
-              "eventId": "inside-out-chant-014"
+              "chant": false,
+              "hintKind": "original"
             },
             {
               "text": " (Oh la la)",
-              "chant": false
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": " (Oh la la)",
+              "eventId": "inside-out-chant-014"
             }
           ]
         }
@@ -1229,14 +1230,15 @@
             },
             {
               "text": "Fall in love",
-              "chant": true,
-              "hintKind": "original",
-              "hintDisplay": "Fall in love",
-              "eventId": "inside-out-chant-015"
+              "chant": false,
+              "hintKind": "original"
             },
             {
               "text": " (Fall in love)",
-              "chant": false
+              "chant": true,
+              "hintKind": "original",
+              "hintDisplay": " (Fall in love)",
+              "eventId": "inside-out-chant-015"
             }
           ]
         }
